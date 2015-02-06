@@ -1,0 +1,28 @@
+body {
+    background-color: blue
+    font-size: 48px;
+    font-family:Helvetica,Arial, sans-serif;
+}
+
+p {
+    color:white;
+    font-weight:bold;
+    font-size:14px;
+}
+
+.two {
+    color:gray;
+    font-weight:italic;
+    font-size:16px;
+}
+
+.three {
+    color:green;
+    font-weight:italic;
+    font-size:17px;
+}
+
+#myid {
+    color: black;
+    font-size:40px;
+}
