@@ -1,4 +1,6 @@
 SAVE TO WEB CODES
 
 
-<mark><em>lyric</em></mark>
+git add .
+git commit -a -m 'message ...'
+git push
