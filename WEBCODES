@@ -4,3 +4,14 @@ SAVE TO WEB CODES
 git add .
 git commit -a -m 'message ...'
 git push
+
+
+NOTES 
+
+images should be under 1 megabite-1- megabite 
+photoshop- 'save for web'
+
+png- transparent background 
+adobe presets - smallest size (pdf under 10 megabites) 
+
+github does not support files over 100megabites. 
