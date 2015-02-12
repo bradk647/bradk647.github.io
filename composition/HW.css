@@ -16,7 +16,7 @@ h1 {
 }
 
 
-#key {
+.key {
     color:white;
     line-height:1.3em;
     font-size:10pt;
@@ -25,7 +25,7 @@ h1 {
     
 }
 
-#lyrics {
+.lyrics {
     color:white;
     line-height:1.2em;
     font-size:10pt;
@@ -34,7 +34,7 @@ h1 {
     
 }
 
-.content {
+div {
     display: inline-block;
 }
 
