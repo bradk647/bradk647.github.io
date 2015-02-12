@@ -1,8 +1,12 @@
-body{
-    background-image:url('http://i.giflike.com/lH0ekVI');
-    background-position: center;
-    background-size: cover;
+
+body {
+    background: url("http://i.giflike.com/lH0ekVI");
+    background-size: 100%;
+    background-repeat: repeat;
+    
+    
 }
+
 
 .key {
     color:white;
