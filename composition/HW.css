@@ -7,13 +7,10 @@
     
 }
 
-body {
-    background-image:url('FTZmqc.gif');
-    background-size:100%;
-    background-repeat: repeat-y;
-    background-attachment: fixed;
-    height:100%;
-    width:100%;
+body{
+    background-image:url('http://gifyoutube.com/gif/v1QaMZ');
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -23,14 +20,8 @@ p {
     font-size:10pt;
     font-family:Arial,Helvetica,sans-serif;
     text-align:center;
-    background-image:url('FTZmqc.gif');
-    background-size:100%;
-    background-repeat: repeat-y;
-    background-attachment: fixed;
-    height:100%;
-    width:100%;
-    
 }
+
 
 
 
