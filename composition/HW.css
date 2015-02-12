@@ -7,6 +7,14 @@ body {
     
 }
 
+.AlGreen {
+     color:white;
+    line-height:1.3em;
+    font-size:11pt;
+    font-family:Arial,Helvetica,sans-serif;
+    text-align:center;
+}
+
 
 .key {
     color:white;
