@@ -49,6 +49,7 @@ body {
 
 mark:hover {
     background-color: red;
+    font-size: 140%;
 }
 
 /*.return {*/
