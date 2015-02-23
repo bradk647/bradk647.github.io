@@ -91,3 +91,11 @@ body {
 
 </html>
 
+
+
+design: inline-block= objects act as text 
+dont use class.ids
+
+position fixed just stays fixed to the window and not the document 
+
+absolute is with document and fixed is with the window 
