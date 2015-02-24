@@ -6,11 +6,11 @@ body {
 .title {
     color:black;
     font-family:"Times New Roman",serif;
-    font-size:230pt;
+    font-size:240pt;
     font-weight: bold;
     text-align:left;
     line-height:.89em;
-    margin:0 auto;
+    margin-left:40px;
     position:relative;
     float:left;
 }
@@ -22,8 +22,10 @@ body {
     font-style:italic;
     text-align:right;
     /*margin-top:100px;*/
+    margin-right: 20px;
     position:relative;
     clear: both;
+    
     
 }
 
@@ -34,21 +36,31 @@ body {
 }
 
 .bunnyimg {
-    margin-top:600px;
-    margin-left:125;
+    margin-top:-500px;
+    margin-left:185;
     position:absolute;
     
 }
 
 .circle {
-   display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /*display: block;*/
+    margin-top:150px;
+    margin-left:650px;
     position: absolute;
     opacity: 0;
 }
 
 .circle:hover {
-    filter: invert(100%);
+    /*filter: invert(100%);*/
     opacity: 100%;
 }
+
+/*#circle {*/
+/*	width: 100px;*/
+/*	height: 100px;*/
+/*	background: red;*/
+/*	-moz-border-radius: 50px;*/
+/*	-webkit-border-radius: 50px;*/
+/*	border-radius: 50px;*/
+/*	color:black;*/
+/*}*/
