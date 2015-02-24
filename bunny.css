@@ -1,6 +1,8 @@
 body {
     background-color:white;
     /*overflow: hidden;*/
+    
+     
 }
 
 .title {
@@ -14,6 +16,12 @@ body {
     position:relative;
     float:left;
 }
+
+/*.title:hover {*/
+/*     -webkit-filter: invert(100%);*/
+/*    filter: invert(100%);*/
+/*    background-color:black;*/
+/*}*/
 
 .cheat {
     color:black;
@@ -47,12 +55,11 @@ body {
     margin-top:150px;
     margin-left:650px;
     position: absolute;
-    opacity: 0;
+    opacity: 100;
 }
 
 .circle:hover {
-    /*filter: invert(100%);*/
-    opacity: 100%;
+    
 }
 
 /*#circle {*/
