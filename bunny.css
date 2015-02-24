@@ -1,40 +1,54 @@
 body {
-    margin: 0;
-    font-size:30px;
-    color: #fff;
-    font-family: arial, helvetica, sans-serif;
+    background-color:white;
+    /*overflow: hidden;*/
 }
 
-.outer-wrapper {
-  height:2000px;
-  width:960px;
-  margin: 100px auto 0 auto;
-  background:#f00;
-  padding:30px;
-  position: relative;
-
+.title {
+    color:black;
+    font-family:"Times New Roman",serif;
+    font-size:230pt;
+    font-weight: bold;
+    text-align:left;
+    line-height:.89em;
+    margin:0 auto;
+    position:relative;
+    float:left;
 }
 
-.wrapper {
-  width:906px;
-  height:2000px;
-  margin: 100px auto 0 auto;
-  background:#ff0;
-
+.cheat {
+    color:black;
+    font-family:"Times New Roman",serif;
+    font-size:20pt;
+    font-style:italic;
+    text-align:right;
+    /*margin-top:100px;*/
+    position:relative;
+    clear: both;
+    
 }
 
-.box {
-  width:280px;
-  height:280px;
-  background: #000;
-  padding:10px;
-  position:relative;
-  left:100px;
-  top:100px;  
+.cheat:hover {
+    text-decoration: line-through
+    
+    
 }
 
-/*position*/
-/*static
-relative
-absolute
-fixed*/
+.bunnyimg {
+    margin-top:600px;
+    margin-left:125;
+    position:absolute;
+    
+}
+
+.circle {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    opacity: 0;
+}
+
+.circle:hover {
+    filter: invert(100%);
+    opacity: 100%;
+}

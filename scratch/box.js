@@ -14,12 +14,11 @@ $();
 	//0 - is the base
 		//0,1,2 etc. 
 
-// var dresser = ['socks', 'shirts', 'boots']
+var dresser = ['socks', 'shirts', 'boots']
 
-say_hi('Down The Rabbit Hole You Will Go ');
+say_hi('Vivian');
 
 function say_hi(name) {
-	alert(name);
+	alert('Hello ' + name);
 
 }
-

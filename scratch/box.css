@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-size:30px;
+    color: #fff;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.outer-wrapper {
+  height:2000px;
+  width:960px;
+  margin: 100px auto 0 auto;
+  background:#f00;
+  padding:30px;
+  position: relative;
+
+}
+
+.wrapper {
+  width:906px;
+  height:2000px;
+  margin: 100px auto 0 auto;
+  background:#ff0;
+
+}
+
+.box {
+  width:280px;
+  height:280px;
+  background: #000;
+  padding:10px;
+  position:relative;
+  left:100px;
+  top:100px;  
+}
+
+/*position*/
+/*static
+relative
+absolute
+fixed*/
