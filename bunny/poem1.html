@@ -3,32 +3,122 @@
 <head>
 
 <title>
-Suffocating
+Gasp
 </title>
 
 <style>
-    body {
-       font-family: helvetica, arial, sans-serif; 
-       font-size: 40px;
-       text-align:center;
-       line-height: 1.3em;
-       background-image:url("http://1-background.com/images/clouds/only-clouds-bright-background-tile.jpg");
-       background-size:cover;
-               
-    }
+            body {
+                background-image:url("http://1-background.com/images/clouds/only-clouds-bright-background-tile.jpg");
+               background-size:cover;
+                       
+            }
+            
+            .poem{
+                font-family: helvetica, arial, sans-serif; 
+               font-size: 40px;
+               text-align:center;
+               line-height: 1.3em;
+            }
     
-    mark:hover {
-        color:white;
-        font-style: italic;
-        background-color:red;
-        font-size:70px;
-    }
-       
+             mark:hover {
+                    color:white;
+                    font-style: italic;
+                    background-color:red;
+                    font-size:70px;
+            }
+                
+                .wrapper {
+                width:960px;
+            
+            }
+            
+            .leftwrapper {
+                 width:50%;
+                float: left;
+                
+            }
+            
+            .circlewrap {
+                width:960px;
+                margin: 0 auto;
+            }
+            
+            .maincircle {
+            	border-radius: 800px;
+            	width: 800px;
+            	height: 800px;
+            	border: 3px solid green;
+            	opacity: 0;
+            	position: absolute;
+                left:50%;
+                -webkit-transform: translate (-50%);
+            	   -moz-transform: translate(-50%);
+            			transform: translate(-50%);
+            	
+            }
+            
+            .maincircle:hover {
+            	opacity: 1;
+            	}
+            
+            
+            .circle {
+                width: 800px;
+                position: absolute;
+                top: 50%;
+                left:50%;
+                -webkit-transform: translate (-50%);
+            	   -moz-transform: translate(-50%);
+            			transform: translate(-50%);
+                
+            }
+            
+            .esc {
+            	position: fixed;
+            	top: 50%;
+            	font-size: 20pt;
+            	font-style: italic;
+            	-webkit-transform: translateY (-50%);
+            	   -moz-transform: translateY(-50%);
+            			transform: translateY(-50%);
+            }
+            
+            a:link {
+                 text-decoration: none;
+            }
+            
+            a:visited {
+                 text-decoration: none;
+            }
+            
+            a:hover {
+                 text-decoration: line-through;
+            }
+            
+            a:active {
+                 text-decoration: underline;
+            }
+                   
     
 </style>
 <head>
 
 <body>
+
+<div class="wrapper">
+    <div class="circlewrap">
+        <div class="maincircle"><a href="bunny/index2.html" class="circle"></a></div>
+    </div> 
+               
+
+    <div class="leftwrapper">
+        <div class="esc">
+            <a href="../indexbunny.html">ESC</a> <br />
+       </div>
+    </div>    
+    
+    
+<div class="poem">
 The <mark>clouds</mark> are rolling in<br />
 And I can't see the sun<br />
 The raindrops seem to <mark>shatter</mark><br />
@@ -49,6 +139,7 @@ Just <mark>hold me</mark> in your arms<br />
 And tell me its <mark>alright</mark><br />
 I need someone to save me<br />
 Please <mark>save me</mark> tonight<br />
+</div>
 </body>
 
 </html>

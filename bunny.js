@@ -1,6 +1,4 @@
-// <button id='but_1'>
-
-// onclick="javascript: (
+// <button id='but_1' onclick="javascript: (
 // function () { 
 //     var css = 'html {-webkit-filter: invert(100%);' +
 //         '-moz-filter: invert(100%);' + 
@@ -22,6 +20,4 @@
 
 // head.appendChild(style);
 //  }());
-
-// </button>
-
+// ">Invert</button>

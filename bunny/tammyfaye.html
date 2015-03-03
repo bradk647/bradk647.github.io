@@ -7,15 +7,16 @@
                 }
                 
             .img {
-                position: fixed;
+                position: absolute;
                 top: 50%;
                 left: 50%;
                 margin-right: -50%;
                 transform: translate(-50%, -50%) 
+    
             }
             
             .tear {
-                /*position: rela;*/
+               position:relative;
                 top: 50%;
                 margin-left:-50%;
                 transform: translate(-50%, -50%) 
@@ -25,11 +26,13 @@
         </style>
     </head>
     <body>
+        <div class="tear">
+       <img src="waterdrop.gif" width="50px">
+       </div>
+        
         <div class="img">
        <img src="http://www.jesus-is-savior.com/Womens%20Page/tammy_faye_bakker.jpg" style="width:400px;height:500px">
        </div>
-       <div class="tear">
-       <img src="http://cdn.shopify.com/s/files/1/0185/5092/products/persons-0098_large.png?v=1369543477" style="width:50px;height:80">
-       </div>
+       
     </body>
 </html>
