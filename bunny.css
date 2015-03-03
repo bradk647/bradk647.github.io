@@ -50,26 +50,34 @@ body {
     transform: translate(-50%, -50%) 
             }
 
-.cheat:hover {
-    text-decoration: line-through
-    
-    
+
+
+a:link {
+     text-decoration: none;
+}
+
+a:visited {
+     text-decoration: none;
+}
+
+a:hover {
+     text-decoration: line-through;
+}
+
+a:active {
+     text-decoration: underline;
 }
 
 .esc {
 	position: fixed;
 	top: 50%;
 	font-size: 20pt;
+	font-style:italic;
 	-webkit-transform: translateY (-50%);
 	   -moz-transform: translateY(-50%);
 			transform: translateY(-50%);
 }
 
-.esc:hover {
-    text-decoration: line-through
-    
-    
-}
 
 .circlewrap {
     width:960px;

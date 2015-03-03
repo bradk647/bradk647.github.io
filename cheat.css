@@ -1,0 +1,136 @@
+            .wrapper {
+                width:960px;
+                
+                
+            }
+            
+            .leftwrapper {
+                 width:50%;
+                float: left;
+                
+            }
+            
+            .rightwrapper{
+                width:50%;
+                float: right;
+            }
+            
+            body {
+                background-color:white;
+                
+            }
+            
+            .bunnyimg {
+                position:absolute;
+                z-index: -1;
+                
+            }
+            ul {
+                
+                font-family:"Times New Roman",serif;
+                font-size:30px;
+                line-height:1em;
+                display: inline;
+                list-style-type: none;
+            	counter-reset: section;
+            
+            	-moz-column-count: 3;
+                -moz-column-gap: 20px;
+                -webkit-column-count: 3;
+                -webkit-column-gap: 10px;
+                column-count: 3;
+                column-gap: 10px;
+                
+                text-align: right;
+                margin-right:20px;
+                
+                
+            }
+            
+            ul li 
+            {
+            	padding-left: 30px;
+            	position: relative;
+            }
+            
+            ul li:before 
+            {
+                
+            	margin: 0 0 0 -34px;
+            	text-align: right;
+            	width: 2em;
+            	display: inline-block;
+            	position: absolute;
+            	height: 100%;
+            
+            }
+            
+            .title {
+                color:black;
+                font-family:"Times New Roman",serif;
+                font-size:200pt;
+                font-weight: bold;
+                text-align:left;
+                line-height:.8em;
+                margin-left:40px;
+                position:relative;
+                float:left;
+            }
+            
+            
+            
+            a:link {
+                 text-decoration: none;
+            }
+            
+            a:visited {
+                 text-decoration: none;
+            }
+            
+            a:hover {
+                 text-decoration: line-through;
+            }
+            
+            a:active {
+                 text-decoration: underline;
+            }
+            
+            
+            
+            
+            
+            .leftwrapper {
+                width:50%;
+                float: left;
+                
+            }
+            
+            .esc {
+            	position: fixed;
+            	top: 50%;
+            	font-size: 20pt;
+            	font-style:italic;
+            	-webkit-transform: translateY (-50%);
+            	   -moz-transform: translateY(-50%);
+            			transform: translateY(-50%);
+            }
+
+          
+            
+            
+            
+            .red:hover {
+                color: red;
+            }
+            .green:hover {
+                color: green;
+            }.blue:hover {
+                color: blue;
+            }.yellow:hover {
+                color: yellow;
+            }.orange:hover {
+                color: orange;
+            }
+            .pink:hover {
+                color: #FF69B4;
+            }
