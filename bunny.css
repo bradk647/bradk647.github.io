@@ -1,27 +1,42 @@
+.wrapper {
+    width:960px;
+    
+    
+}
+
+.leftwrapper {
+     width:50%;
+    float: left;
+    
+}
+
+.rightwrapper{
+    width:50%;
+    float: right;
+}
+
 body {
     background-color:white;
-    /*overflow: hidden;*/
     
-     
+}
+
+.bunnyimg {
+    position:absolute;
+    z-index: -1;
+    
 }
 
 .title {
     color:black;
     font-family:"Times New Roman",serif;
-    font-size:240pt;
+    font-size:200pt;
     font-weight: bold;
     text-align:left;
-    line-height:.89em;
+    line-height:.8em;
     margin-left:40px;
     position:relative;
     float:left;
 }
-
-/*.title:hover {*/
-/*     -webkit-filter: invert(100%);*/
-/*    filter: invert(100%);*/
-/*    background-color:black;*/
-/*}*/
 
 .cheat {
     color:black;
@@ -30,13 +45,10 @@ body {
     font-style:italic;
     position: fixed;
 	top: 50%;
-	-webkit-transform: translate(-50%);
-	   -moz-transform: translateX(-50%);
-			transform: translateY(-50%
-			
-    
-    
-}
+    left: 100%;
+    margin-right: -100%;
+    transform: translate(-50%, -50%) 
+            }
 
 .cheat:hover {
     text-decoration: line-through
@@ -59,38 +71,39 @@ body {
     
 }
 
-.bunnyimg {
-    margin-top:700px;
-    margin-left:185;
-    position:relative;
-    
+.circlewrap {
+    width:960px;
+    margin: 0 auto;
 }
-
-.wrapper {
-	width: 10000px;
-	background: white;
-	height: 800px;
-}
-
-.circle {
+.maincircle {
 	border-radius: 800px;
 	width: 800px;
 	height: 800px;
 	border: 3px solid #000000;
-	display: block;
 	opacity: 0;
-    top: 50%;
+	position: absolute;
+    left:50%;
     -webkit-transform: translate (-50%);
 	   -moz-transform: translate(-50%);
 			transform: translate(-50%);
 	
 }
 
-.circle:hover {
+.maincircle:hover {
 	opacity: 1;
 	}
 
 
+.circle {
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    -webkit-transform: translate (-50%);
+	   -moz-transform: translate(-50%);
+			transform: translate(-50%);
+    
+}
 
 
 
@@ -98,18 +111,15 @@ body {
 
 
 
+/*.title:hover {*/
+/*     -webkit-filter: invert(100%);*/
+/*    filter: invert(100%);*/
+/*    background-color:black;*/
+/*}*/
 
-
-
-
-
-
-
-
-
-
-
-
+/*.img {*/
+/*    padding;*/
+/*}*/
 
 
 /*.circle {*/
