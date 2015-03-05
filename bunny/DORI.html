@@ -19,39 +19,59 @@
             
         }
         
-        .circlewrap {
-            width:960px;
-            margin: 0 auto;
-        }
+        /*.circlewrap {*/
+        /*    width:960px;*/
+        /*    margin: 0 auto;*/
+        /*}*/
         
-        .maincircle {
-        	border-radius: 800px;
-        	width: 800px;
-        	height: 800px;
-        	border: 3px solid #FF69B4;
-        	opacity: 0;
-        	position: absolute;
-            left:50%;
-            -webkit-transform: translate (-50%);
-        	   -moz-transform: translate(-50%);
-        			transform: translate(-50%);
+        /*.maincircle {*/
+        /*	border-radius: 800px;*/
+        /*	width: 800px;*/
+        /*	height: 800px;*/
+        /*	border: 3px solid #FF69B4;*/
+        /*	opacity: 0;*/
+        /*	position: fixed;*/
+        /*    left:50%;*/
+        /*    -webkit-transform: translate (-50%);*/
+        /*	   -moz-transform: translate(-50%);*/
+        /*			transform: translate(-50%);*/
+        /*			z-index: 100;*/
         	
-        }
+        /*}*/
         
-        .maincircle:hover {
-        	opacity: 1;
-        	}
+        /*.maincircle:hover {*/
+        /*	opacity: 1;*/
+        /*	}*/
         
         
-        .circle {
-            width: 800px;
-            position: absolute;
+        /*.circle {*/
+        /*    width: 800px;*/
+        /*    position: fixed;*/
+        /*    top: 50%;*/
+        /*    left:50%;*/
+        /*    -webkit-transform: translate (-50%);*/
+        /*	   -moz-transform: translate(-50%);*/
+        /*			transform: translate(-50%);*/
+            
+        /*}*/
+        
+        .test {
+            width: 80px;
+            height: 80px;
+            border:3px solid #FF69B4;
+            position: fixed;
+            border-radius: 100%;
             top: 50%;
             left:50%;
             -webkit-transform: translate (-50%);
         	   -moz-transform: translate(-50%);
         			transform: translate(-50%);
-            
+        	opacity:0;
+        }
+        
+        
+        .test:hover {
+            opacity:1;
         }
         
         .esc {
@@ -242,10 +262,11 @@ if (ns4up) {
 </script>
 <body>
     
-    <div class="wrapper">
-    <div class="circlewrap">
-        <a href="dangerzone.html" class="maincircle"></a>
-    </div> 
+    
+    <!--<div class="wrapper">-->
+    <!--<div class="circlewrap">-->
+    <!--    <a href="dangerzone.html" class="maincircle"></a>-->
+    <!--</div> -->
                
 
     <div class="leftwrapper">
@@ -261,6 +282,10 @@ if (ns4up) {
     </div>
        
     </div>
+    
+        <div class="test"><a href="dangerzone.html"></a>
+        </div>
+
     
 
     </body>

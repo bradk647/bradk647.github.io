@@ -16,10 +16,9 @@
 }
 
 body {
-    background-color:white;
-    /*background-image:url("https://seniorproject93.files.wordpress.com/2011/04/106576901.jpg");*/
+    background-color:black;
+    /*background-image:url("http://iwritealot.com/wp-content/uploads/2010/06/grass.jpg");*/
     /*background-size:cover;*/
-    
     
 }
 
@@ -36,13 +35,13 @@ body {
 /*}*/
 
 .title {
-    color:black;
+    color:white;
     font-family:"Times New Roman",serif;
     font-size:250px;
     font-weight: bold;
     text-align:left;
     line-height:.8em;
-    margin-left:65px;
+    margin-left:75px;
     margin-top:25px;
     position:relative;
     float:left;
@@ -57,7 +56,7 @@ body {
     position: fixed;
 	top: 50%;
 	/*left:990px;*/
-    left: 97%;
+    left: 96%;
     /*margin-right: -100%;*/
     transform: translate(-50%, -50%) 
             }
@@ -97,14 +96,14 @@ a:active {
     margin: 0 auto;
 }
 .maincircle {
-	border-radius: 100%;
-	width: 600px;
-	height: 600px;
+	border-radius: 800px;
+	width: 800px;
+	height: 800px;
 	border: 3px solid #000000;
 	opacity: 0;
 	position: absolute;
 	display:block;
-	top:15%;
+	top:7%;
     left:50%;
     -webkit-transform: translate (-50%);
 	   -moz-transform: translate(-50%);
