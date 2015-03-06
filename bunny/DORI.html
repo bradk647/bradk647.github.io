@@ -3,6 +3,9 @@
         <title>
             Just Keep Swimming 
         </title>
+        
+        <link rel="icon" href="../flavicon/pinkfavicon.png" sizes="16x16 32x32" type="image/png">
+        
         <style>
         body {
             background-image:url("http://images7.alphacoders.com/355/355241.jpg");
@@ -19,6 +22,11 @@
             
         }
         
+        .rightwrapper{
+                width:50%;
+                float: right;
+            }
+        
         .circlewrap {
             width:960px;
             margin: 0 auto;
@@ -31,8 +39,9 @@
         	height: 600px;
         	border: 3px solid #FF69B4;
         	opacity: 0;
-        	position: fixed;
+        	position: absolute;
             left:50%;
+            top: 12%;
             
             -webkit-transform: translate (-50%);
         	   -moz-transform: translate(-50%);
@@ -48,8 +57,8 @@
         
         .circle {
             width: 800px;
-            position: fixed;
-            
+            position: absolute;
+            top: 12%;
             left:50%;
             -webkit-transform: translate (-50%);
         	   -moz-transform: translate(-50%);
@@ -58,8 +67,7 @@
             
         }
         
-        
-        
+    
         .esc {
         	position: fixed;
         	top: 50%;
@@ -70,21 +78,42 @@
         			transform: translateY(-50%);
         }
         
+        .cheat {
+                color:black;
+                font-family:"Times New Roman",serif;
+                font-size:20pt;
+                font-style:italic;
+                position: fixed;
+	            top: 50%;
+	            /*left:990px;*/
+                left: 96%;
+                /*margin-right: -100%;*/
+                transform: translate(-50%, -50%) 
+            }
+        
         .dori {
-            display:inline-block;
+            margin-left:50px;
+            margin-top:105px;
         }
         
-        squirt {
-            display:inline-block;
-            float:right;
+        
+        .squirt {
+            margin-top:-10px;
+            margin-left:-30px;
         }
         
+        .nemo {
+            margin-top:-15px;
+            margin-left:-85px;
+        }
         a:link {
              text-decoration: none;
+             color:white;
         }
         
         a:visited {
              text-decoration: none;
+             color:white;
         }
         
         a:hover {
@@ -150,8 +179,8 @@
             }
         
                 </style>
-    </head>
-    <body>
+    
+    
         <script language="JavaScript1.2">
 <!-- Begin
 
@@ -255,28 +284,34 @@ if (ns4up) {
 }
 // End -->
 </script>
-<body>
-    
-    
-    <div class="wrapper">
-    <div class="circlewrap">
-        <a href="dangerzone.html" class="maincircle"></a>
-    </div> 
-               
 
-    <div class="leftwrapper">
+</head>
+<body>
+
+       <div class="fish1">
+        <center><img src="fn-dory.png" style= "display:inline-block;" class="dori">
+        <img src="http://1.bp.blogspot.com/-KImHSSzOhBo/U78U9iTLgmI/AAAAAAAAH3s/tFN3xqnZGvc/s1600/Finding_Nemo.png" style= "display:inline-block;" class="squirt">
+        <img src="http://vignette4.wikia.nocookie.net/kingdomheartsfanon/images/e/eb/Nemo-Summon-KH-DDD-Pohlranda3.png/revision/latest?cb=20140615064456" style= "display:inline-block;" class="nemo"></center>
+    
+        </div>
+    
+      <div class="leftwrapper">
         <div class="esc">
             <a href="../indexbunny.html">ESC</a> <br />
        </div>
+       </div>
+      
+      <div class="wrapper">
+    <div class="circlewrap">
+        <a href="PUSLEME.html" class="maincircle"></a>
+    </div> 
        
-       <div class="fish1">
-        <img src="fn-dory.png" class="dori">
-        <img src="http://1.bp.blogspot.com/-KImHSSzOhBo/U78U9iTLgmI/AAAAAAAAH3s/tFN3xqnZGvc/s1600/Finding_Nemo.png" class="squirt">
-        <img src="http://vignette4.wikia.nocookie.net/kingdomheartsfanon/images/e/eb/Nemo-Summon-KH-DDD-Pohlranda3.png/revision/latest?cb=20140615064456" class="nemo">
-    
     </div>
-       
-    </div>
+    <div class="rightwrapper">
+                <div class="cheat">
+                    <a href="../cheat/happycheat.html">CHEAT</a> <br />
+                </div>
+            </div> 
 
 
     </body>

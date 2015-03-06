@@ -3,6 +3,7 @@
         <title>
             Scared Yet?
         </title>
+        <link rel="icon" href="../flavicon/redfavicon.png" sizes="16x16 32x32" type="image/png">
         <style>
 
 body{
@@ -22,18 +23,24 @@ background-image:url("http://i.huffpost.com/gen/984730/thumbs/o-REAL-LIFE-VAMPIR
     
 }
 
+.rightwrapper{
+    width:50%;
+    float: right;
+}
+
 .circlewrap {
     width:960px;
     margin: 0 auto;
 }
 
 .maincircle {
-	border-radius: 800px;
-	width: 800px;
-	height: 800px;
+	border-radius: 100%;
+	width: 600px;
+	height: 600px;
 	border: 3px solid red;
 	opacity: 0;
 	position: absolute;
+	top:12%;
     left:50%;
     -webkit-transform: translate (-50%);
 	   -moz-transform: translate(-50%);
@@ -49,7 +56,7 @@ background-image:url("http://i.huffpost.com/gen/984730/thumbs/o-REAL-LIFE-VAMPIR
 .circle {
     width: 800px;
     position: absolute;
-    top: 50%;
+    top: 12%;
     left:50%;
     -webkit-transform: translate (-50%);
 	   -moz-transform: translate(-50%);
@@ -67,12 +74,27 @@ background-image:url("http://i.huffpost.com/gen/984730/thumbs/o-REAL-LIFE-VAMPIR
 			transform: translateY(-50%);
 }
 
+.cheat {
+    color:black;
+    font-family:"Times New Roman",serif;
+    font-size:20pt;
+    font-style:italic;
+    position: fixed;
+	top: 50%;
+	/*left:990px;*/
+    left: 96%;
+    /*margin-right: -100%;*/
+    transform: translate(-50%, -50%) 
+            }
+
 a:link {
      text-decoration: none;
+     color:black;
 }
 
 a:visited {
      text-decoration: none;
+     color:black;
 }
 
 a:hover {
@@ -90,7 +112,7 @@ a:active {
 
 <div class="wrapper">
     <div class="circlewrap">
-        <a href="NotWriting.html" class="maincircle"></a>
+        <a href="overdrama.html" class="maincircle"></a>
     </div> 
                
 
@@ -99,5 +121,11 @@ a:active {
             <a href="../indexbunny.html">ESC</a> <br />
        </div>
     </div>
+    
+    <div class="rightwrapper">
+                <div class="cheat">
+                    <a href="../cheat/madcheat.html">CHEAT</a> <br />
+                </div>
+            </div>
     </body>
 </html>

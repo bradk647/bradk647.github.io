@@ -4,6 +4,7 @@
         <title>
             Spacey Stacy
         </title>
+        <link rel="icon" href="../flavicon/yellowfavicon.png" sizes="16x16 32x32" type="image/png">
         <style>
             
             body{
@@ -26,18 +27,23 @@
                 
             }
             
+            .rightwrapper{
+    width:50%;
+    float: right;
+}
             .circlewrap {
                 width:960px;
                 margin: 0 auto;
             }
             
             .maincircle {
-            	border-radius: 800px;
-            	width: 800px;
-            	height: 800px;
+            	border-radius: 100%;
+            	width: 600px;
+            	height: 600px;
             	border: 3px solid yellow;
             	opacity: 0;
             	position: absolute;
+            	top:12%;
                 left:50%;
                 -webkit-transform: translate (-50%);
             	   -moz-transform: translate(-50%);
@@ -53,7 +59,7 @@
             .circle {
                 width: 800px;
                 position: absolute;
-                top: 50%;
+                top: 12%;
                 left:50%;
                 -webkit-transform: translate (-50%);
             	   -moz-transform: translate(-50%);
@@ -69,7 +75,7 @@
                 color:white;
                 opacity:0;
                 text-align: right;
-                margin-right: 10px;
+                margin-right: 80px;
                 margin-top:60px;
             }
             .for {
@@ -78,8 +84,8 @@
                 color:white;
                 opacity:0;
                 text-align:left;
-                margin-top:100px;
-                margin-left:70px;
+                margin-top:80px;
+                margin-left:80px;
             }
             .the {
                 font-family:helvetica,arial,sans-serif;
@@ -87,14 +93,14 @@
                 color:white;
                 opacity:0;
                 margin-left:65px;
-                margin-top:200px;
+                margin-top:100px;
             }
             .stars {
                 font-family:helvetica,arial,sans-serif;
                 font-size:45px;
                 color:yellow;
                 opacity:0;
-                margin-right:100px;
+                margin-right:80px;
                 text-align:right;
             }
             
@@ -119,18 +125,34 @@
             	top: 50%;
             	font-family:"Times New Roman",serif;
             	font-size: 20pt;
+            	margin-left:7px;
             	font-style: italic;
             	-webkit-transform: translateY (-50%);
             	   -moz-transform: translateY(-50%);
             			transform: translateY(-50%);
             }
             
+            .cheat {
+    color:black;
+    font-family:"Times New Roman",serif;
+    font-size:20pt;
+    font-style:italic;
+    position: fixed;
+	top: 50%;
+	/*left:990px;*/
+    left: 96%;
+    /*margin-right: -100%;*/
+    transform: translate(-50%, -50%) 
+            }
+            
             a:link {
                  text-decoration: none;
+                 color:white;
             }
             
             a:visited {
                  text-decoration: none;
+                 color:white;
             }
             
             a:hover {
@@ -149,17 +171,7 @@
         <center>Do <em>you</em> believe in yourself? <br />
         Find the message.</center>
         
-        <div class="wrapper">
-    <div class="circlewrap">
-        <a href="VOverYou.html" class="maincircle"></a>
-    </div> 
-               
-
-    <div class="leftwrapper">
-        <div class="esc">
-            <a href="../cheatsheet.html">ESC</a> <br />
-       </div>
-    </div>
+    
     
         <br />
         <br />
@@ -184,6 +196,24 @@
        <div class="stars">
          Stars!
       </div>
+       
+        <div class="wrapper">
+    <div class="circlewrap">
+        <a href="window.html" class="maincircle"></a>
+    </div> 
+               
+
+    <div class="leftwrapper">
+        <div class="esc">
+            <a href="../indexbunny.html">ESC</a> <br />
+       </div>
+    </div>
+    
+    <div class="rightwrapper">
+                <div class="cheat">
+                    <a href="../cheat/neutralcheat.html">CHEAT</a> <br />
+                </div>
+            </div>
        
     </body>
 </html>

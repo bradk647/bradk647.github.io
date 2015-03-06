@@ -4,6 +4,9 @@
             The Sound of Music
         </title>
         
+        <link rel="icon" href="../flavicon/orangefavicon.png" sizes="16x16 32x32" type="image/png">
+        
+        
         <script type="text/javascript">
 
 /******************************************
@@ -102,10 +105,10 @@ if (ie4up||ns6up){
                 background-image:url("http://3.bp.blogspot.com/-GRQ1X2r0rF4/Tj2qyrzJj8I/AAAAAAAAKJI/BrHoaSAcOXA/s1600/CBAW.co.cc+--+Artic+View+%2528102%2529.jpg");
                 background-size:cover;
             }
-            
-            .wrapper {
+   .wrapper {
     width:960px;
-
+    
+    
 }
 
 .leftwrapper {
@@ -114,57 +117,34 @@ if (ie4up||ns6up){
     
 }
 
-.circlewrap {
-    width:960px;
-    margin: 0 auto;
-}
-
-.maincircle {
-	border-radius: 800px;
-	width: 800px;
-	height: 800px;
-	border: 3px solid orange;
-	opacity: 0;
-	position: absolute;
-    left:50%;
-    -webkit-transform: translate (-50%);
-	   -moz-transform: translate(-50%);
-			transform: translate(-50%);
-	
-}
-
-.maincircle:hover {
-	opacity: 1;
-	}
-
-
-.circle {
-    width: 800px;
-    position: absolute;
-    top: 50%;
-    left:50%;
-    -webkit-transform: translate (-50%);
-	   -moz-transform: translate(-50%);
-			transform: translate(-50%);
-    
-}
-
-.esc {
-	position: fixed;
+.rightwrapper{
+    width:50%;
+    float: right;
+}         
+            
+.cheat {
+    color:black;
+    font-family:"Times New Roman",serif;
+    font-size:20pt;
+    font-style:italic;
+    position: fixed;
 	top: 50%;
-	font-size: 20pt;
-	font-style: italic;
-	-webkit-transform: translateY (-50%);
-	   -moz-transform: translateY(-50%);
-			transform: translateY(-50%);
-}
+	/*left:990px;*/
+    left: 96%;
+    /*margin-right: -100%;*/
+    transform: translate(-50%, -50%) 
+            }
+
+
 
 a:link {
      text-decoration: none;
+     color:white;
 }
 
 a:visited {
      text-decoration: none;
+     color:white;
 }
 
 a:hover {
@@ -174,13 +154,63 @@ a:hover {
 a:active {
      text-decoration: underline;
 }
+
+.esc {
+	position: fixed;
+	top: 50%;
+	margin-left:7px;
+	font-size: 20pt;
+	font-style:italic;
+	-webkit-transform: translateY (-50%);
+	   -moz-transform: translateY(-50%);
+			transform: translateY(-50%);
+}
+
+
+.circlewrap {
+    width:960px;
+    margin: 0 auto;
+}
+.maincircle {
+	border-radius: 100%;
+	width: 600px;
+	height: 600px;
+	border: 3px solid orange;
+	opacity: 0;
+	position: absolute;
+	display:block;
+	top:12%;
+    left:50%;
+    -webkit-transform: translate (-50%);
+	   -moz-transform: translate(-50%);
+			transform: translate(-50%);
+	z-index:45;
+	
+}
+
+.maincircle:hover {
+	opacity: 1;
+
+
+
+.circle {
+    width: 800px;
+    position: absolute;
+    top: 12%;
+    left:50%;
+    -webkit-transform: translate (-50%);
+	   -moz-transform: translate(-50%);
+			transform: translate(-50%);
+    
+}
+
             
         </style>
     </head>
     <body>
         <div class="wrapper">
     <div class="circlewrap">
-        <a href="oldpeople.html" class="maincircle"></a>
+        <a href="bieber.html" class="maincircle"></a>
     </div> 
                
 
@@ -189,5 +219,11 @@ a:active {
             <a href="../indexbunny.html">ESC</a> <br />
        </div>
     </div>
+    
+     <div class="rightwrapper">
+                <div class="cheat">
+                    <a href="../cheat/calmcheat.html">CHEAT</a> <br />
+                </div>
+            </div>
     </body>
 </html>

@@ -41,7 +41,7 @@ body {
     font-weight: bold;
     text-align:left;
     line-height:.8em;
-    margin-left:75px;
+    margin-left:90px;
     margin-top:25px;
     position:relative;
     float:left;
@@ -65,10 +65,12 @@ body {
 
 a:link {
      text-decoration: none;
+     color:white;
 }
 
 a:visited {
      text-decoration: none;
+     color:white;
 }
 
 a:hover {

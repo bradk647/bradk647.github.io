@@ -3,6 +3,9 @@
         <title>
             End
         </title>
+        
+        <link rel="icon" href="../flavicon/blackfavicon.png" sizes="16x16 32x32" type="image/png">
+        
         <style>
             .wrapper {
     width:960px;
@@ -15,6 +18,10 @@
     
 }
 
+.rightwrapper{
+    width:50%;
+    float: right;
+}
 .circlewrap {
     width:960px;
     margin: 0 auto;
@@ -27,7 +34,7 @@
 	background-color:black;
 	opacity: 1;
 	position: absolute;
-	top:16%;
+	top:12%;
     left:50%;
     -webkit-transform: translate (-50%);
 	   -moz-transform: translate(-50%);
@@ -35,14 +42,11 @@
 	
 }
 
-
-
-
 .circle {
     fill:black;
     width: 800px;
     position: absolute;
-    top: 50%;
+    top: 12%;
     left:50%;
     -webkit-transform: translate (-50%);
 	   -moz-transform: translate(-50%);
@@ -60,12 +64,27 @@
 			transform: translateY(-50%);
 }
 
+.cheat {
+    color:black;
+    font-family:"Times New Roman",serif;
+    font-size:20pt;
+    font-style:italic;
+    position: fixed;
+	top: 50%;
+	/*left:990px;*/
+    left: 96%;
+    /*margin-right: -100%;*/
+    transform: translate(-50%, -50%) 
+            }
+
 a:link {
      text-decoration: none;
+     color:black;
 }
 
 a:visited {
      text-decoration: none;
+     color:black;
 }
 
 a:hover {
@@ -92,6 +111,11 @@ a:active {
        </div>
     </div>
        
+       <div class="rightwrapper">
+                <div class="cheat">
+                    <a href="../cheat/cheatpage.html">CHEAT</a> <br />
+                </div>
+            </div>
     
     </body>
 </html>

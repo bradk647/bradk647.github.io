@@ -3,6 +3,9 @@
         <title>
             I am not writing
         </title>
+        
+        <link rel="icon" href="../flavicon/greenfavicon.png" sizes="16x16 32x32" type="image/png">
+        
         <script type="text/javascript" src="TypingText.js">
 /****************************************************
 * Typing Text script- By Twey @ Dynamic Drive Forums
@@ -23,78 +26,106 @@
         color:grey;
     }
     
-            .wrapper {
-            width:960px;
-        
-        }
-        
-        .leftwrapper {
-             width:50%;
-            float: left;
-            
-        }
-        
-        .circlewrap {
-            width:960px;
-            margin: 0 auto;
-        }
-        
-        .maincircle {
-        	border-radius: 800px;
-        	width: 800px;
-        	height: 800px;
-        	border: 3px solid green;
-        	opacity: 0;
-        	position: absolute;
-            left:50%;
-            -webkit-transform: translate (-50%);
-        	   -moz-transform: translate(-50%);
-        			transform: translate(-50%);
-        	
-        }
-        
-        .maincircle:hover {
-        	opacity: 1;
-        	}
-        
-        
-        .circle {
-            width: 800px;
-            position: absolute;
-            top: 50%;
-            left:50%;
-            -webkit-transform: translate (-50%);
-        	   -moz-transform: translate(-50%);
-        			transform: translate(-50%);
-            
-        }
-        
-        .esc {
-        	position: fixed;
-        	top: 50%;
-        	font-size: 20pt;
-        	font-style: italic;
-        	-webkit-transform: translateY (-50%);
-        	   -moz-transform: translateY(-50%);
-        			transform: translateY(-50%);
-        }
-        
-        a:link {
-             text-decoration: none;
-        }
-        
-        a:visited {
-             text-decoration: none;
-        }
-        
-        a:hover {
-             text-decoration: line-through;
-        }
-        
-        a:active {
-             text-decoration: underline;
-        }
+           .wrapper {
+    width:960px;
     
+    
+}
+
+.leftwrapper {
+     width:50%;
+    float: left;
+    
+}
+
+.rightwrapper{
+    width:50%;
+    float: right;
+}
+    
+.cheat {
+    color:black;
+    font-family:"Times New Roman",serif;
+    font-size:20pt;
+    font-style:italic;
+    position: fixed;
+	top: 50%;
+	/*left:990px;*/
+    left: 96%;
+    /*margin-right: -100%;*/
+    transform: translate(-50%, -50%) 
+            }
+
+
+
+a:link {
+     text-decoration: none;
+     color:gray;
+}
+
+a:visited {
+     text-decoration: none;
+     color:gray;
+}
+
+a:hover {
+     text-decoration: line-through;
+}
+
+a:active {
+     text-decoration: underline;
+}
+
+.esc {
+	position: fixed;
+	top: 50%;
+	margin-left:7px;
+	font-size: 20pt;
+	font-style:italic;
+	-webkit-transform: translateY (-50%);
+	   -moz-transform: translateY(-50%);
+			transform: translateY(-50%);
+}
+
+
+.circlewrap {
+    width:960px;
+    margin: 0 auto;
+}
+.maincircle {
+	border-radius: 100%;
+	width: 600px;
+	height: 600px;
+	border: 3px solid green;
+	opacity: 0;
+	position: absolute;
+	display:block;
+	top:12%;
+    left:50%;
+    -webkit-transform: translate (-50%);
+	   -moz-transform: translate(-50%);
+			transform: translate(-50%);
+	z-index:45;
+	
+}
+
+.maincircle:hover {
+	opacity: 1;
+
+
+
+.circle {
+    width: 800px;
+    position: absolute;
+    top: 12%;
+    left:50%;
+    -webkit-transform: translate (-50%);
+	   -moz-transform: translate(-50%);
+			transform: translate(-50%);
+    
+}
+
+
 </style>
     </head>
 
@@ -102,7 +133,7 @@
     
     <div class="wrapper">
     <div class="circlewrap">
-        <a href="overdrama.html" class="maincircle"></a>
+        <a href="knife.html" class="maincircle"></a>
     </div> 
                
 
@@ -111,6 +142,12 @@
             <a href="../indexbunny.html">ESC</a> <br />
        </div>
     </div>
+    
+     <div class="rightwrapper">
+                <div class="cheat">
+                    <a href="../cheat/anxiouscheat.html">CHEAT</a> <br />
+                </div>
+            </div>
     
     
     <div id="example1">TRUE! --nervous --very, very dreadfully nervous I had been and am; but why will you say that I am mad? The disease had sharpened my senses --not destroyed --not dulled them. Above all was the sense of hearing acute. I heard all things in the heaven and in the earth. I heard many things in hell. How, then, am I mad? Hearken! and observe how healthily --how calmly I can tell you the whole story.
@@ -161,6 +198,9 @@ new TypingText(document.getElementById("example1"));
 //Type out examples:
 TypingText.runAll();
 </script>
+
+
+
 </body>
 
 </html>

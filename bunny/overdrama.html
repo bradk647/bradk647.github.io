@@ -3,11 +3,18 @@
         <title>
             Overdramtic Dramtics 
         </title>
+        
+        <link rel="icon" href="../flavicon/bluefavicon.png" sizes="16x16 32x32" type="image/png">
         <style>
+        
+            body {
+                background-color:black;
+            }
             images {
                 position: absolute;
-                margin-top:30px;
+                margin-top:50px;
                 z-index: -1;
+               
             }
             
             .wrapper {
@@ -21,22 +28,29 @@
                 
             }
             
+            .rightwrapper{
+    width:50%;
+    float: right;
+}
+            
             .circlewrap {
                 width:960px;
                 margin: 0 auto;
             }
             
             .maincircle {
-            	border-radius: 800px;
-            	width: 800px;
-            	height: 800px;
+            	border-radius: 100%;
+            	width: 600px;
+            	height: 600px;
             	border: 3px solid blue;
             	opacity: 0;
             	position: absolute;
+            	top:12%;
                 left:50%;
                 -webkit-transform: translate (-50%);
             	   -moz-transform: translate(-50%);
             			transform: translate(-50%);
+            			z-index:100;
             	
             }
             
@@ -53,7 +67,7 @@
                 -webkit-transform: translate (-50%);
             	   -moz-transform: translate(-50%);
             			transform: translate(-50%);
-                
+                z-index:100;
             }
             
             .esc {
@@ -66,12 +80,27 @@
             			transform: translateY(-50%);
             }
             
+            .cheat {
+    color:black;
+    font-family:"Times New Roman",serif;
+    font-size:20pt;
+    font-style:italic;
+    position: fixed;
+	top: 50%;
+	/*left:990px;*/
+    left: 96%;
+    /*margin-right: -100%;*/
+    transform: translate(-50%, -50%) 
+            }
+            
             a:link {
                  text-decoration: none;
+                 color:white;
             }
             
             a:visited {
                  text-decoration: none;
+                 color:white;
             }
             
             a:hover {
@@ -85,17 +114,7 @@
     </head>
     <body>
         
-        <div class="wrapper">
-    <div class="circlewrap">
-        <a href="SHOUT.html" class="maincircle"></a>
-    </div> 
-               
-
-    <div class="leftwrapper">
-        <div class="esc">
-            <a href="../indexbunny.html">ESC</a> <br />
-       </div>
-    </div>
+      
         
         <div class="images">
            <center>
@@ -137,7 +156,23 @@
        </center>
         </div>
 
+ <div class="wrapper">
+    <div class="circlewrap">
+        <a href="textmess.html" class="maincircle"></a>
+    </div> 
+               
 
+    <div class="leftwrapper">
+        <div class="esc">
+            <a href="../indexbunny.html">ESC</a> <br />
+       </div>
+    </div>
+    
+    <div class="rightwrapper">
+                <div class="cheat">
+                    <a href="../cheat/sadcheat.html">CHEAT</a> <br />
+                </div>
+            </div>
 
 
         </body>

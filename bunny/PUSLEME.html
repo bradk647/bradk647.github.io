@@ -3,7 +3,7 @@
         <title>
             PIERCEMEPULSEME
         </title>
-        
+        <link rel="icon" href="../flavicon/redfavicon.png" sizes="16x16 32x32" type="image/png">
         <style>
             body {
                 background-image: url("pulse.gif");
@@ -16,78 +16,6 @@
                 overflow: hidden;
             }
             
-            .wrapper {
-                width:960px;
-            
-            }
-            
-            .leftwrapper {
-                 width:50%;
-                float: left;
-                
-            }
-            
-            .circlewrap {
-                width:960px;
-                margin: 0 auto;
-            }
-            
-            .maincircle {
-            	border-radius: 800px;
-            	width: 800px;
-            	height: 800px;
-            	border: 3px solid red;
-            	opacity: 0;
-            	position: absolute;
-                left:50%;
-                -webkit-transform: translate (-50%);
-            	   -moz-transform: translate(-50%);
-            			transform: translate(-50%);
-            	
-            }
-            
-            .maincircle:hover {
-            	opacity: 1;
-            	}
-            
-            
-            .circle {
-                width: 800px;
-                position: absolute;
-                top: 50%;
-                left:50%;
-                -webkit-transform: translate (-50%);
-            	   -moz-transform: translate(-50%);
-            			transform: translate(-50%);
-                
-            }
-            
-            .esc {
-            	position: fixed;
-            	top: 50%;
-            	font-size: 20pt;
-            	font-style: italic;
-            	-webkit-transform: translateY (-50%);
-            	   -moz-transform: translateY(-50%);
-            			transform: translateY(-50%);
-            }
-            
-            a:link {
-                 text-decoration: none;
-            }
-            
-            a:visited {
-                 text-decoration: none;
-            }
-            
-            a:hover {
-                 text-decoration: line-through;
-            }
-            
-            a:active {
-                 text-decoration: underline;
-            }
-                        
             .text {
              
              font-family:Helvetica,arial,sans-serif;
@@ -101,25 +29,135 @@
               
             }
             
+     
+       .wrapper {
+    width:960px;
+    
+    
+}
+
+.leftwrapper {
+     width:50%;
+    float: left;
+    
+}
+
+.rightwrapper{
+    width:50%;
+    float: right;
+}         
+                
+    .cheat {
+    color:black;
+    font-family:"Times New Roman",serif;
+    font-size:20pt;
+    font-style:italic;
+    position: fixed;
+	top: 50%;
+	/*left:990px;*/
+    left: 96%;
+    /*margin-right: -100%;*/
+    transform: translate(-50%, -50%) 
+            }
+
+
+
+a:link {
+     text-decoration: none;
+     color:black;
+}
+
+a:visited {
+     text-decoration: none;
+     color:black;
+}
+
+a:hover {
+     text-decoration: line-through;
+}
+
+a:active {
+     text-decoration: underline;
+}
+
+.esc {
+	position: fixed;
+	top: 50%;
+	margin-left:7px;
+	font-size: 20pt;
+	font-style:italic;
+	-webkit-transform: translateY (-50%);
+	   -moz-transform: translateY(-50%);
+			transform: translateY(-50%);
+}
+
+
+.circlewrap {
+    width:960px;
+    margin: 0 auto;
+}
+.maincircle {
+	border-radius: 100%;
+	width: 600px;
+	height: 600px;
+	border: 3px solid red;
+	opacity: 0;
+	position: absolute;
+	display:block;
+	top:12%;
+    left:50%;
+    -webkit-transform: translate (-50%);
+	   -moz-transform: translate(-50%);
+			transform: translate(-50%);
+	z-index:45;
+	
+}
+
+.maincircle:hover {
+	opacity: 1;
+
+
+
+.circle {
+    width: 800px;
+    position: absolute;
+    top: 12%;
+    left:50%;
+    -webkit-transform: translate (-50%);
+	   -moz-transform: translate(-50%);
+			transform: translate(-50%);
+    
+}
+
+                        
+            
         </style>
     </head>
     <body>
         
+        
+        <div class="text">
+        <center>there is always noise.</center>
+        </div>
+        
         <div class="wrapper">
             <div class="circlewrap">
-        <a href="tammyfaye.html" class="maincircle"></a>
+        <a href="NotWriting.html" class="maincircle"></a>
     </div> 
                
 
     <div class="leftwrapper">
         <div class="esc">
-            <a href="../cheatsheet.html">ESC</a> <br />
+            <a href="../indexbunny.html">ESC</a> <br />
        </div>
     </div>
-        
-        <div class="text">
-        <center>bullets.</center>
-        </div>
+    
+    <div class="rightwrapper">
+                <div class="cheat">
+                    <a href="../cheat/madcheat.html">CHEAT</a> <br />
+                </div>
+            </div>
+    
     </body>
 </html>
 
