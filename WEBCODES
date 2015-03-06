@@ -17,85 +17,69 @@ adobe presets - smallest size (pdf under 10 megabites)
 github does not support files over 100megabites. 
 
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Kyle Brady</title>
-    </head>
+ESC:
 
+.esc {
+	position: fixed;
+	top: 50%;
+	margin-left:7px;
+	font-size: 20pt;
+	font-style:italic;
+	-webkit-transform: translateY (-50%);
+	   -moz-transform: translateY(-50%);
+			transform: translateY(-50%);
+			
+CHEAT:
 
-<h2 style="color:#FFFFFF;margin-left:80px;font-family:Arial, Futura, sans-serif;font-size:30pt;"><br />KAB_</h2>
-<p style="color:grey;margin-left:80px;font-family:Arial, Helvetica, sans-serif;font-size:10pt;"> <em> bradk647@newschool.edu_
-<br /> interactive studio_lab</em> <br />
-<a href="danger/index.html">danger zone</a> <br />
+.cheat {
+    color:black;
+    font-family:"Times New Roman",serif;
+    font-size:20pt;
+    font-style:italic;
+    position: fixed;
+	top: 50%;
+	/*left:990px;*/
+    left: 97%;
+    /*margin-right: -100%;*/
+    transform: translate(-50%, -50%) 
+            }
+            
+            
+CIRCLE:
 
-<br /><br /> <br /><br /><br /> <br /> <br /><br /><br /><br /> <br /> <em>assignments_</em> 
-<br />
-
-<a href="composition/index.html">composition</a> <br />
-
-<a href="compnew/index.html">composition testing</a> <br />
-
-<a href="archives/archive1:2.pdf">composition archive 1-2</a> <br />
-
-<a href="archives/Archive2.pdf">composition archive 3</a> <br />
-
-<a href="flavicon/flavicon2.png">flavicon png</a><br />
-
-<a href="space_presentation/spacepresentation.pdf">space presentation </a><br />
-
-
-<br /><br />
-<em>websites_</em><br /><br />
-
-<a href="indesign_des/Light_WebIdeas.pdf">website one</a><br />
-
-<a href="indesign_des/PrivacyWebIdeas.pdf">website two</a><br />
-
-<a href="indesign_des/Glow_WebIdea.pdf">website three</a><br />
-
-<a href="indesign_des/nucleus_idea.pdf">website four</a><br />
-
-<a href="indesign_des/TIghtSpaces.pdf">website five</a><br />
-
-<a href="indesign_des/website_revised.pdf">website revised</a><br />
-
-<a href="indesign_des/RabbitHolefinal.pdf">mega double <br />website revised</a><br />
-
-<!--<br /><br />-->
-<!--<em>experiences_</em><br /><br />-->
-
-<!--<a href="experiences/Light_WebIdeas.pdf">experience one</a><br />-->
-
-
-
-
-
-
-
-</p>
-
-
-<style>
-body {
-
-    background-image: url("http://1.bp.blogspot.com/-SMkVMDWkxwA/U58PFVtqucI/AAAAAAAAng0/6VRnUfQTZk4/s1600/monty+python+2.gif");
-    background-size: cover;
-    
+.circlewrap {
+    width:960px;
+    margin: 0 auto;
+}
+.maincircle {
+	border-radius: 100%;
+	width: 600px;
+	height: 600px;
+	border: 3px solid #000000;
+	opacity: 0;
+	position: absolute;
+	display:block;
+	top:15%;
+    left:50%;
+    -webkit-transform: translate (-50%);
+	   -moz-transform: translate(-50%);
+			transform: translate(-50%);
+	z-index:45;
+	
 }
 
-</style>
-
-<br />
-<br />
-
-</html>
+.maincircle:hover {
+	opacity: 1;
 
 
 
-design: inline-block= objects act as text 
-dont use class.ids
-
-position fixed just stays fixed to the window and not the document 
-
-absolute is with document and fixed is with the window 
+.circle {
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    -webkit-transform: translate (-50%);
+	   -moz-transform: translate(-50%);
+			transform: translate(-50%);
+    
+}

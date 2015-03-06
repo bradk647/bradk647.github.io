@@ -1,0 +1,157 @@
+body{
+            background-color:white;
+        }
+        
+        .wrappertext {
+            text-align:center;
+            font-family: "Times New Roman",serif;
+            font-size:35px;
+            margin-top:25px;
+        }
+        
+       .leftwrapper {
+            width:50%;
+            float: left;
+                
+        }
+        
+        .rightwrapper{
+            width:50%;
+            float: right;
+        }
+            
+        .esc {
+        	position: fixed;
+        	top: 50%;
+        	font-size: 20pt;
+        	font-style:italic;
+        	-webkit-transform: translateY (-50%);
+        	   -moz-transform: translateY(-50%);
+        			transform: translateY(-50%);
+        }
+        
+        .cheat {
+            color:black;
+            font-family:"Times New Roman",serif;
+            font-size:20pt;
+            font-style:italic;
+            position: fixed;
+            top: 50%;
+            /*left:990px;*/
+            left: 97%;
+            /*margin-right: -100%;*/
+            transform: translate(-50%, -50%) 
+            }
+      
+        a:link {
+                text-decoration: none;
+                color:black;
+            }
+            
+            a:visited {
+                text-decoration: none;
+                color:black;
+            }
+            
+            a:hover {
+                text-decoration: line-through;
+            }
+            
+            a:active {
+                text-decoration: underline;
+            }
+            
+            
+            
+            #red:hover {
+                color: red;
+                text-decoration: line-through;
+            }
+            #green {
+                color: green;
+                text-decoration: line-through;
+            }
+           #blue:hover {
+                color: blue;
+                text-decoration: line-through;
+            }
+            #yellow:hover {
+                color: yellow;
+                text-decoration: line-through;
+            }
+            #orange:hover {
+                color: orange;
+                text-decoration: line-through;
+            }
+            #pink:hover {
+                color: #FF69B4;
+                text-decoration: line-through;
+            }
+            
+            #all:hover {
+                color:black;
+                text-decoration: line-through;
+            }
+            
+           /* #red1:hover {*/
+           /*     color: red;*/
+           /*     text-decoration: line-through;*/
+           /* }*/
+           /* #green1:hover {*/
+           /*     color: green;*/
+           /*     text-decoration: line-through;*/
+           /* }*/
+           /*#blue1:hover {*/
+           /*     color: blue;*/
+           /*     text-decoration: line-through;*/
+           /* }*/
+           /* #yellow1:hover {*/
+           /*     color: yellow;*/
+           /*     text-decoration: line-through;*/
+           /* }*/
+           /* #orange1:hover {*/
+           /*     color: orange;*/
+           /*     text-decoration: line-through;*/
+           /* }*/
+           /* #pink1:hover {*/
+           /*     color: #FF69B4;*/
+           /*     text-decoration: line-through;*/
+           /* }*/
+            
+            ul {
+                font-family:"Times New Roman",serif;
+                font-size:18px;
+                line-height:1.9em;
+                list-style-type: none;
+            	counter-reset: section;
+            
+            	-moz-column-count: 3;
+                -moz-column-gap: 20px;
+                -webkit-column-count: 3;
+                -webkit-column-gap: 10px;
+                column-count: 3;
+                column-gap: 10px;
+                
+                text-align: center;
+                vertical-align: middle;
+                margin-right:40px;
+                margin-top:40px;
+            }
+            
+            ul li 
+            {
+            	padding-left: 30px;
+            	position: relative;
+            }
+            
+            ul li:before 
+            {
+                
+            	margin: 0 0 0 -34px;
+            	text-align: center;
+            	width: 2em;
+            	display: inline-block;
+            	position: absolute;
+            	height: 100%;
+            
+            }
