@@ -1,0 +1,432 @@
+<html>
+<head>
+  
+  <link rel="icon" href="favicon1.png" sizes="16x16 32x32" type="image/png">
+  
+  <meta charset="utf-8">
+      <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+ 
+      <style>
+      
+          body {
+            background-color:white;
+            background-image:url("colorcircles1.png");
+            background-size:cover;
+          }
+         
+         .title {
+           font-family:helvetica;
+           font-weight:bold;
+           line-height:1.0em;
+           font-size:30px;
+           
+         }
+         
+         .core {
+           font-family:helvetica;
+           font-weight:bold;
+           line-height:.35em;
+           font-size:46px;
+           
+         }
+         
+         .brendan {
+           margin-left:29px;
+           position:absolute;
+         }
+          
+          .heads {
+            position:relative;
+            /*display:inline-block;*/
+            
+          }
+          #draggablelauren {
+            position:absolute;
+            /*display:inline-block;*/
+            margin-left:70%;
+            margin-top:38%;
+          }
+          
+          #draggablekyle {
+            position:absolute;
+            /*display:inline-block;*/
+            margin-left:50%;
+            margin-top:33%;
+            
+          }
+          
+          #draggabletheresa {
+            position:absolute;
+            display:inline-block;
+             margin-left:65%;
+            margin-top:28%;
+          }
+          
+          #draggablelika {
+            position:absolute;
+            display:inline-block;
+            margin-right:70px;
+            margin-left:39%;
+            margin-top:28%;
+          }
+          #draggablesimen{
+            position:absolute;
+            display:inline-block;
+            margin-left:40%;
+            margin-top:38%;
+          }
+          
+          #draggableeva {
+              position:absolute;
+            display:inline-block;
+            margin-right:70px;
+            margin-left:29%;
+            margin-top:34%;
+          }
+          #draggablejasmineh {
+              position:absolute;
+            display:inline-block;
+            margin-left:20%;
+            margin-top:22%;
+          }
+          
+          #draggablejasminez {
+              position:absolute;
+            display:inline-block;
+            margin-left:32%;
+            margin-top:21%;
+          }
+          #draggablesara {
+              position:absolute;
+            display:inline-block;
+            margin-left:71%;
+            margin-top:6%;
+          }
+          
+          #draggablekamila {
+              position:absolute;
+            display:inline-block;
+            margin-right:70px;
+            margin-left:65%;
+            margin-top:1%;
+          }
+          
+           #draggableherin {
+              position:absolute;
+            display:inline-block;
+             margin-left:32%;
+            margin-top:8%;
+          }
+          #draggableconny {
+              position:absolute;
+            display:inline-block;
+            margin-left:80%;
+            margin-top:18%;
+          }
+          
+          #draggablevivian {
+              position:absolute;
+            display:inline-block;
+            margin-left:60%;
+            margin-top:13%;
+          }
+          
+          #draggableurvi {
+              position:absolute;
+            display:inline-block;
+            margin-left:50%;
+            margin-top:2%;
+            z-index:100;
+          }
+          
+          #draggableurvita {
+              position:absolute;
+            display:inline-block;
+            margin-left:50%;
+            margin-top:10%;
+          }
+          
+          #draggablemegan {
+              position:absolute;
+            display:inline-block;
+            margin-left:40%;
+            margin-top:2%;
+          }
+          
+          #draggablezhiyan {
+              position:absolute;
+            display:inline-block;
+            margin-left:29%;
+            margin-top:0;
+          }
+          
+           a:link {
+             text-decoration: none;
+             color:black;
+        }
+        
+        a:visited {
+             text-decoration: none;
+             color:black;
+        }
+        
+        a:hover {
+             text-decoration: none;
+        }
+        
+        a:active {
+             text-decoration: none;
+        }
+      </style>
+      
+      <script>
+          $(function() {
+            $( "#draggablelauren" ).draggable();
+          });
+          
+          $(function() {
+            $( "#draggablekyle" ).draggable();
+          });
+          
+          $(function() {
+            $( "#draggabletheresa" ).draggable();
+          });
+          
+          $(function() {
+            $( "#draggableeva" ).draggable();
+          });
+          
+          $(function() {
+            $( "#draggablesimen" ).draggable();
+          });
+          
+          $(function() {
+            $( "#draggablelika" ).draggable();
+          });
+          
+          $(function() {
+            $( "#draggableurvi" ).draggable();
+          });
+          
+          $(function() {
+            $( "#draggablejasmineh" ).draggable();
+          });
+          
+          $(function() {
+            $( "#draggablejasminez" ).draggable();
+          });
+          
+          $(function() {
+            $( "#draggableurvita" ).draggable();
+          });
+          
+          $(function() {
+            $( "#draggablemegan" ).draggable();
+          });
+          
+          $(function() {
+            $( "#draggablesara" ).draggable();
+          });
+          
+          
+          $(function() {
+            $( "#draggablekamila" ).draggable();
+          });
+          
+          $(function() {
+            $( "#draggableherin" ).draggable();
+          });
+          
+          $(function() {
+            $( "#draggableconny" ).draggable();
+          });
+          
+           $(function() {
+            $( "#draggablezhiyan" ).draggable();
+          });
+          
+          $(function() {
+            $( "#draggablevivian" ).draggable();
+          });
+          
+          var audio = $("#mySoundClip")[0];
+                $("nav a").mouseenter(function() {
+                  audio.play();
+                });
+          
+          
+      </script>
+</head>
+
+<body>
+  
+  <audio id="lauren" src="audio/lauren.mp3"></audio>
+		<audio id="simen" src="audio/Simen_Meyer.mp3"></audio>
+		<audio id="eva" src="audio/eva.mp3"></audio>
+		<audio id="jasminez" src="audio/jasmine_Zhang_Composition.mp3"></audio>
+		<audio id="jasmineh" src="audio/Please_Find_Me.mp3"></audio>
+		<audio id="zhiyan" src="audio/Zhiyan_Huang.mp3"></audio>
+		<audio id="sara" src="audio/sara.mp3"></audio>
+		<audio id="kyle" src="audio/Kyle.mp3"></audio>
+		<audio id="theresa" src="audio/Theresa_Duemler_Shapes.mp3"></audio>
+		<audio id="kamila" src="audio/Kamila_39_s_archive.mp3"></audio>
+		<audio id="herin" src="audio/herin.mp3"></audio>
+		<audio id="megan" src="audio/Mega.mp3"></audio>
+		<audio id="vivian" src="audio/Vivian.mp3"></audio>
+		<audio id="urvita" src="audio/Urvita.mp3"></audio>
+		<audio id="urvi" src="audio/urvi.mp3"></audio>
+		<audio id="conny" src="audio/conny_2.mp3"></audio>
+		<audio id="lika" src="audio/Lika.mp3"></audio>
+  
+ <br />
+  <a href="index.html"><div class="title">
+  <span class="core">CORE</span><br>
+     CLIQUES
+  </div></a>
+  
+  <a href="index.html"> <img src="brendantrans.png" class="brendan" width="75px"></a>
+
+<div class="heads">
+ 
+<a href="http://steil881.github.io/lab/composition/final/index.html">
+    <div id="draggablelauren" class="ui-widget-content"
+      onmouseover="document.getElementById('lauren').play()" 
+      onmouseout="document.getElementById('lauren').pause()">
+        <img src="laurentrans.png" width="130px"/> 
+    </div>
+</a>
+
+<a href="http://bradk647.github.io/composition/index.html">
+    <div id="draggablekyle" class="ui-widget-content"
+      onmouseover="document.getElementById('kyle').play()" 
+      onmouseout="document.getElementById('kyle').pause()">
+        <img src="kyletrans1.png" width="130px"/> 
+    </div>
+</a>
+ 
+<a href="http://duemt384.github.io/composition1/composition2.html"> 
+    <div id="draggabletheresa" class="ui-widget-content"
+      onmouseover="document.getElementById('theresa').play()" 
+      onmouseout="document.getElementById('theresa').pause()">
+        <img src="theresa2 copy.png" width="130px"/> 
+  </div>
+  </a>
+  
+<a href="http://cruze767.github.io/lab/composition/composition2.html">
+    <div id="draggableeva" class="ui-widget-content"
+      onmouseover="document.getElementById('eva').play()" 
+      onmouseout="document.getElementById('eva').pause()">
+        <img src="eva1trans.png" width="130px"/> 
+  </div>
+</a>
+
+<a href="http://meyes631.github.io/composition/index_revised.html">
+    <div id="draggablesimen" class="ui-widget-content"
+      onmouseover="document.getElementById('simen').play()" 
+      onmouseout="document.getElementById('simen').pause()">
+        <img src="simentrans.png" width="130px"/> 
+  </div>
+</a>
+
+<a href="http://kumol508.github.io/Lab/composition2.html">
+    <div id="draggablelika" class="ui-widget-content"
+      onmouseover="document.getElementById('lika').play()" 
+      onmouseout="document.getElementById('lika').pause()">
+        <img src="likatrans.png" width="130px"/> 
+    </div>
+</a>
+
+<a href="http://raghu225.github.io/composition/index3.html">
+   <div id="draggableurvi" class="ui-widget-content"
+      onmouseover="document.getElementById('urvi').play()" 
+      onmouseout="document.getElementById('urvi').pause()">
+        <img src="urvitrans1.png" width="130px"/> 
+  </div>
+</a>
+
+<a href="http://hongj871.github.io/composition/compositionindex.html">
+    <div id="draggablejasmineh" class="ui-widget-content"
+        onmouseover="document.getElementById('jasmineh').play()" 
+        onmouseout="document.getElementById('jasmineh').pause()">
+          <img src="jasminehtrans.png" width="130px"/> 
+    </div>
+</a>
+
+<a href="http://yangv473.github.io/comp2.html">
+    <div id="draggablevivian" class="ui-widget-content"
+        onmouseover="document.getElementById('vivian').play()" 
+        onmouseout="document.getElementById('vivian').pause()">
+          <img src="viviantrans.png" width="130px"/> 
+    </div>
+</a>
+
+<a href="http://diasm568.github.io/lab/composition.html">
+    <div id="draggablemegan" class="ui-widget-content"
+      onmouseover="document.getElementById('megan').play()" 
+      onmouseout="document.getElementById('megan').pause()">
+        <img src="megantrans.png" width="130px"/> 
+    </div>
+</a>
+ 
+<a href="http://jhavu042.github.io/lab/composition2/index.html">
+   <div id="draggableurvita" class="ui-widget-content"
+      onmouseover="document.getElementById('urvita').play()" 
+      onmouseout="document.getElementById('urvita').pause()">
+        <img src="urvitatrans.png" width="130px"/> 
+  </div>
+</a>
+
+<a href="http://zhanj122.github.io/composition/composition_revised/composition2_revised.html">
+    <div id="draggablejasminez" class="ui-widget-content"
+        onmouseover="document.getElementById('jasminez').play()" 
+        onmouseout="document.getElementById('jasminez').pause()">
+          <img src="jasmineztrans.png" width="130px"/> 
+    </div>
+</a>
+
+<a href="http://penas326.github.io/lab/revisedcomposition/index.html">
+    <div id="draggablesara" class="ui-widget-content"
+      onmouseover="document.getElementById('sara').play()" 
+      onmouseout="document.getElementById('sara').pause()">
+        <img src="saratrans.png" width="130px"/> 
+  </div>
+</a>
+
+<a href="http://connypinto.github.io/lab/composition2/composition2.html">
+    <div id="draggableconny" class="ui-widget-content"
+      onmouseover="document.getElementById('conny').play()" 
+      onmouseout="document.getElementById('conny').pause()">
+        <img src="connytrans.png" width="130px"/> 
+    </div>
+</a>
+
+<a href="http://ortik455.github.io/lab/compositiontwo.html">
+    <div id="draggablekamila" class="ui-widget-content"
+      onmouseover="document.getElementById('kamila').play()" 
+      onmouseout="document.getElementById('kamila').pause()">
+        <img src="kamilatrans.png" width="130px"/> 
+    </div>
+</a>
+
+<a href="http://parkh899.github.io/lab/composition3.html">
+    <div id="draggableherin" class="ui-widget-content"
+      onmouseover="document.getElementById('herin').play()"
+      onmouseout="document.getElementById('herin').pause()">
+        <img src="herintrans.png" width="130px"/> 
+    </div>
+</a>
+
+<a href="http://huanz488.github.io/composition/compositionrevised.html">
+    <div id="draggablezhiyan" class="ui-widget-content"
+      onmouseover="document.getElementById('zhiyan').play()"
+      onmouseout="document.getElementById('zhiyan').pause()">
+        <img src="zhiyantrans.png" width="130px"/> 
+    </div>
+</a>
+ 
+ 
+ 
+</div>
+</body>
+</html>
