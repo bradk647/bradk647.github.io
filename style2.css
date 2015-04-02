@@ -1,0 +1,86 @@
+
+.square {
+    border-style: solid;
+    border-width: 1px;
+    background-color:white;
+    width: 90px;
+    height: 90px;
+    margin: 5px 5px 5px 15px;
+    float: left;
+}
+
+
+
+/*.white1 {*/
+/*    border-style: solid;*/
+/*    border-width: 1px;*/
+/*    background-color:white;*/
+/*    width: 90px;*/
+/*    height: 90px;*/
+/*    margin: -1px 5px 15px 105px;*/
+   
+/*}*/
+
+/*.white2 {*/
+/*    float: left;*/
+/*    border-style: solid;*/
+/*    border-width: 1px;*/
+/*    background-color:white;*/
+/*    width: 90px;*/
+/*    height: 90px;*/
+/*    margin: -107px 55px 15px 212px;*/
+/*}*/
+
+/*.white3 {*/
+/*    border-style: solid;*/
+/*    border-width: 1px;*/
+/*    background-color:white;*/
+/*    width: 90px;*/
+/*    height: 90px;*/
+/*    margin: -107px 5px 15px 319px;*/
+/*}*/
+
+/*.white4 {*/
+/*    border-style: solid;*/
+/*    border-width: 1px;*/
+/*    background-color:white;*/
+/*    width: 90px;*/
+/*    height: 90px;*/
+/*    margin: -107px 5px 15px 427px;*/
+/*}*/
+
+/*.piece1 {*/
+/*    height:91px;*/
+/*    width:31px;*/
+/*    background-color:black;*/
+/*    position:absolute;*/
+/*    margin-left:15px;*/
+/*}*/
+
+/*.piece1a {*/
+/*    height:91px;*/
+/*    width:31px;*/
+/*    background-color:black;*/
+/*    position:absolute;*/
+/*    margin-left:77px;*/
+/*}*/
+
+/*.piece1b {*/
+/*    width:92px;*/
+/*    height:31px;*/
+/*    background-color:black;*/
+/*    position:absolute;*/
+/*    margin-left:15px;*/
+    
+/*}*/
+
+/*.piece1c {*/
+/*    width:92px;*/
+/*    height:16px;*/
+/*    background-color:black;*/
+/*    position:absolute;*/
+/*    margin-left:15px;*/
+/*    margin-top:45px;*/
+    
+/*}*/
+
