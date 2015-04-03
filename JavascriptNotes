@@ -1,0 +1,142 @@
+function addNums (num1, num2) {
+    var sum = num1 + num2;
+    console.log(sum);
+}
+
+addNums (4,5);
+(it will answer) 9
+
+________
+
+function add(num1, num2) {
+var sum = num1 + num2;
+return sum;
+}
+
+add (20,30)
+(it will answer) 9
+^you can store these variables when you use the return option = var mySum= add (20,30)
+
+mySum
+(enter)
+(it will answer) 50
+
+________
+NOTES Apr.2
+
+DOM=Document Object Model (the html source for your page {rendered source})
+
+$= JQuery Object 
+
+background-color:red= key vaulue (css property)
+
+using the the 'up' key you can cycle through past statesments 
+
+Shift+enter- allows you to enter spaces/push return with the fuction executing 
+
+else covers all other conditions 
+________
+
+
+CLICK FUNCTION:
+
+var clicker = false
+
+$(".course-info").click(function() {
+if (clicked==false) {
+    $("body").css("background-color","red");
+    clicked = true;
+} else {
+    $("body").css("background-color","white");
+    clicked = false;
+}
+
+toggleclass
+
+
+MOUSE FUNTION:
+
+(mousedown/mouseup- similar to click but it is faster)
+
+
+var clicker = false
+
+$(".course-info").mousedown(function() {
+if (clicked==false) {
+    $("body").css("background-color","red");
+    clicked = true;
+} else {
+    $("body").css("background-color","white");
+    clicked = false;
+}
+
+HOVER:
+
+(mousemove- when ever the mouse moves on top of the function)
+(mouseenter/mouseleave- performs when they leave or enter the hover over the funtion)
+
+var clicker = false
+
+$(".course-info").mousemove(function() {
+if (clicked==false) {
+    $("body").css("background-color","red");
+    clicked = true;
+} else {
+    $("body").css("background-color","white");
+    clicked = false;
+}
+
+
+
+HW:
+/*
+
+Instructions:
+
+---- PART 1 ----
+Start by removing that pirate flag (#pirate).
+
+Next, add a gradient to the whole page by applying the "gradient" class to the body.
+
+---- PART 2 ----
+Now, to make things a little more complicated, let's activate the "Start" button:
+
+When the user clicks the "Start" button, change the text of "status" to read "GO". 
+Let's also change the background color of "status" to green.
+Change the text of the "Start" button to read "Stop".
+
+When the user clicks the bottom again, revert all of the above. 
+So "status" should read "STOP", it's background color should be red, and the button itself should read "Start" again.
+
+Hint: you will want to store the current state of the button in a variable.
+
+---- PART 3 ----
+Now that we have stored the status of our button, let's show the user an image if the mouse is over our green "GO" box.
+
+If the user has activated the button, toggle the visibility of id "cat" to reveal our animated leopard.
+
+*/
+
+
+$(document).ready(function() {
+
+var clicked = false;
+
+
+$("#pirate").remove();
+$("body").addClass("gradient"); 
+
+$("#toggle").click(function() {
+	if (clicked) {
+	$("#status").html("STOP".css("background-color", "red");
+	$(this).html("Start");
+	clicked = false;
+	
+} else { 
+	
+	$("#status").html("GO").css({"background-color" : "green"});
+	$(this).html("stop");
+	clicked = true;	
+	
+	}
+});
