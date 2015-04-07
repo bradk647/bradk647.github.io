@@ -13,18 +13,50 @@ jQuery(document).ready(function($){ //fire on DOM ready
  $('#myimage').addpowerzoom()
 })
  </script>
+ 
+ <link rel="stylesheet" href="sidetogglemenu.css" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+<script src="sidetogglemenu.js">
+
+
+</script>
+
+<script>
+
+jQuery(function(){ // on DOM load
+	menu1 = new sidetogglemenu({  // initialize first menu example
+		id: 'togglemenu1',
+		marginoffset: 10
+	})
+
+})
+
+</script>
    
     </head>
     <body>
-        <img id="myimage" src="http://www.astrosurf.com/luxorion/Sciences/area51-satellite-300dpi-2003.jpg" style="size: 100%" >
+
+  <button onClick="menu1.toggle();" class="sideviewtoggle">MICROINVESTIGATIONS</button>
+
+
+<div id="togglemenu1" class="sidetogglemenu">
+
+	<ul>
+	<li><a href="HOME.html">HOME</a></li>
+	<li><a href="pentagon.html">PENTAGON</a></li>
+	<li><a href="area51.html">AREA 51</a></li>
+	<li><a href="watergate.html">WATERGATE</a></li>
+	<li><a href="911.html">9/11</a></li>
+	<li><a href="jfk.html">DALLAS 1964</a></li>
+	</ul>
+	
+
+
+</div>
     
-    <!--    <div class="abox">-->
-    <!--<div class="a-wrapper">-->
-    <!--    <div class="letterablock"></div>-->
-    <!--    <div class="whiteblock1a"></div>-->
-    <!--    <div class="whiteblock2a"></div>-->
-    <!--</div>-->
-    <!--</div>-->
+   <img id="myimage" src="http://www.astrosurf.com/luxorion/Sciences/area51-satellite-300dpi-2003.jpg" style="size: 100%" > 
     
     </body>
 </html>
