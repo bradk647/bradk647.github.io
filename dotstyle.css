@@ -9,6 +9,21 @@ p {
    font-family:helvetica;arial;sans-serif;
    font-size:20pt;
 }
+
+
+.abox {
+   width:20px;
+    height:20px;
+    background-color:black;
+    position:absolute;
+    z-index:1;
+    opacity: 100;
+}
+
+.abox :hover {
+    opacity:0;
+}
+
 .letterablock {
     width:20px;
     height:20px;
