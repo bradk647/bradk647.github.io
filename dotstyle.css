@@ -16,8 +16,9 @@ p {
     height:20px;
     background-color:black;
     position:absolute;
-    z-index:1;
+    z-index:100;
     opacity: 100;
+    
 }
 
 .abox :hover {
@@ -29,6 +30,7 @@ p {
     height:20px;
     background-color:black;
     position:absolute;
+     z-index:90;
 }
 .whiteblock1a {
     width:10.5px;
@@ -37,6 +39,7 @@ p {
     position:absolute;
     margin-top:4.5px;
     margin-left:4.5px;
+     z-index:95;
 }
 .whiteblock2a {
     width:10.5px;
@@ -45,6 +48,7 @@ p {
     position:absolute;
     margin-top:12px;
     margin-left:4.5px;
+     z-index:95;
 }
 
 .letterbblock {
