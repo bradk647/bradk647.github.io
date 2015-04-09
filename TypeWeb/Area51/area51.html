@@ -1,0 +1,83 @@
+<html>
+    <head>
+    <title>
+       area51
+    </title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+    <script type="text/javascript" src="ddpowerzoomer.js"></script>
+ <link rel="stylesheet" type="text/css" href="dotstyle.css">
+    <link rel="stylesheet" type="text/css" href="pentstyle.css">
+  <script type="text/javascript">
+jQuery(document).ready(function($){ //fire on DOM ready
+ $('#myimage').addpowerzoom()
+})
+ </script>
+   
+   <meta name="viewport" content="width=device-width" />
+
+<link rel="stylesheet" type="text/css" href="pushmenu.css" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
+<script src="pushmenu.js">
+
+</script>
+
+<script>
+
+jQuery(function(){ // on DOM load
+
+	menu1 = new pushmenu({  // initialize menu example
+		menuid: 'pushmenu1',
+		position: 'left',
+		marginoffset: 0,
+		revealamt: -8,
+		onopenclose:function(state){ // add or remove "open" class to animated drawer button depending on menu state
+			var $buttonref = $('#drawer')
+			if (state == 'open')
+				$buttonref.addClass('open')
+			else
+				$buttonref.removeClass('open')			
+		}
+	})
+
+})
+
+</script>
+   
+    </head>
+    
+    
+    <body>
+    	<img id="myimage" src="http://www.astrosurf.com/luxorion/Sciences/area51-satellite-300dpi-2003.jpg" style="size: 100%" > 
+        <br />
+        <nav id="pushmenu1" class="pushmenu">
+
+	
+	<!--<div class="closebutton fa fa-plus-circle" title="Close Menu"></div>-->
+
+	<ul class="mainnav">
+	    <br />
+	<li><a href="homepage.html"> HOME</a></li>
+	<li><a href="pentagon.html"></i>PENTAGON</a></li>
+	<li><a href="9/11.html"></i> 9/11</a></li>
+	<li><a href="jfk.html"></i> DALLAS 1964</a></li>
+	<li><a href="area51.html"></i> AREA 51</a></li>
+	
+	</ul>
+
+
+</nav>
+        
+        
+        <div id="contentwrapper">
+            <a id="drawer" class="animateddrawer toggleitem" href="#" onClick="menu1.toggle(); return false">
+<span></span>
+</a>
+    
+   
+   </div> 
+    </body>
+</html>

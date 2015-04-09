@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>
+            (.)
+        </title>
+        <link rel="stylesheet" type="text/css" href="bstyle.css">
+        <link rel="stylesheet" type="text/css" href="dotstyle.css">
+        
+        <script language="javascript">
+            var popupWindow = null;
+            function centeredPopup(url,winName,w,h,scroll){
+            LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+            TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+            settings =
+            'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable'
+            popupWindow = window.open(url,winName,settings)
+            }
+            </script>
+            <p><a href="http://nsarchive.gwu.edu/NSAEBB/NSAEBB443/" 
+            onclick="centeredPopup(this.href,'myWindow','700','300','yes');return false"> 
+                <div class="a-wrapper">
+                <div class="letter-block">
+                    <div class="whiteblock1a"></div>
+                    <div class="whiteblock2a"></div>
+                </div>
+                </div>
+                </a></p>
+        
+    </head>
+    
+<body>
+        
+    <div class="a-wrapper">
+        <div class="letter-block">
+            <div class="whiteblock1a"></div>
+            <div class="whiteblock2a"></div>
+        </div>
+    </div>
+    
+    <div class="b-wrapper">
+        <div class="letter-block">
+            <div class="whiteblock1b"></div>
+            <div class="whiteblock2b"></div>
+        </div>
+    </div>
+    <div class="c-wrapper">
+        <div class="letter-block">
+            <div class="whiteblock1c"></div>
+        </div>
+    </div>
+    
+</body>
+</html>

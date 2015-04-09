@@ -1,0 +1,724 @@
+.body {
+    background-color:white;
+}
+
+.a-wrapper {
+    position:relative;
+    display:inline-block;
+}
+
+.letter-ablock {
+    width:20px;
+    height:20px;
+    background-color:#000;
+    position:absolute;
+    
+}
+
+.whiteblock1a {
+    width:10px;
+    height:2px;
+    background-color: #000;
+    position:absolute;
+    top: 5px;
+    left: 5px;
+ 
+}
+.whiteblock2a {
+   width:10px;
+    height:15px;
+    background-color: #000;
+    position:absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+.letter-ablock:hover div {
+    background-color: #fff;
+}
+
+/*a:visited {*/
+/*    color: lime;*/
+/*}*/
+
+.b-wrapper {
+    position:relative;
+    display:inline-block;
+}
+
+.letter-bblock {
+    width:20px;
+    height:20px;
+    background-color:#000;
+    position: absolute;
+}
+
+.whiteblock1b {
+    width:10px;
+    height:2px;
+    background-color: #000;
+    position:absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.whiteblock2b {
+    width:10px;
+    height:2px;
+    background-color: #000;
+    position:absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+.letter-bblock:hover div {
+    background: #fff !important;
+}
+
+.c-wrapper {
+    position:relative;
+    display:inline-block;
+}
+
+.letter-cblock {
+    width:20px;
+    height:20px;
+    background-color:#000;
+    position:absolute;
+    
+}
+
+.whiteblock1c {
+    width:15px;
+    height:9px;
+    background-color:#000;
+    position:absolute;
+    top:5px;
+    left:5px;
+}
+
+.letter-cblock:hover div {
+    background: #fff 
+}
+
+.d-wrapper {
+    position:relative;
+    display:inline-block;
+}
+
+.letter-block {
+    width:20px;
+    height:20px;
+    background-color:#000;
+    position:absolute;
+}
+
+.whiteblock1d {
+    width:12px;
+    height:10px;
+    background-color:#000;
+    position:absolute;
+    top:5px;
+    left:6px;
+}
+
+.letter-block:hover div {
+    background: #fff 
+}
+
+.whiteblock1e {
+    width:16px;
+    height:2px;
+    background-color:white;
+    position:absolute;
+    margin-top:4.5px;
+    margin-left:104.5px;
+}
+.whiteblock2e {
+    width:16px;
+    height:2px;
+    background-color:white;
+    position:absolute;
+    margin-top:12px;
+    margin-left:104.5px;
+}
+
+.letterfblock {
+    width:20px;
+    height:20px;
+    background-color:black;
+    float: left;
+    position:absolute;
+    margin-left:125px;
+}
+
+.whiteblock1f {
+    width:16px;
+    height:2px;
+    background-color:white;
+    position:absolute;
+    margin-top:4.5px;
+    margin-left:129.5px;
+}
+.whiteblock2f {
+    width:16px;
+    height:9px;
+    background-color:white;
+    position:absolute;
+    margin-top:12px;
+    margin-left:129.5px;
+}
+
+.lettergblock {
+    width:20px;
+    height:20px;
+    background-color:black;
+    float: left;
+    position:absolute;
+    margin-top:6px;
+}
+
+.whiteblock1g {
+    width:12.25px;
+    height:9px;
+    background-color:white;
+    position:absolute;
+    margin-top:10px;
+    margin-left:5px;
+    
+}
+
+.whiteblock2g {
+    width:5px;
+    height:2px;
+    background-color:white;
+    position:absolute;
+    margin-top:10px;
+    margin-left:16px;
+    
+}
+
+.letterhblock {
+    width:20px;
+    height:20px;
+    background-color:black;
+    position:absolute;
+    margin-left:25px;
+    margin-top:6px;
+}
+.whiteblock1h {
+    width:10.5px;
+    height:8px;
+    background-color:white;
+    position:absolute;
+    margin-top:5px;
+    margin-left:29.5px;
+}
+.whiteblock2h {
+    width:10.5px;
+    height:9px;
+    background-color:white;
+    position:absolute;
+    margin-top:18px;
+    margin-left:29.5px;
+}
+
+.letteriblock {
+    width:20px;
+    height:20px;
+    background-color:black;
+    position:absolute;
+    margin-left:50px;
+    margin-top:6px;
+}
+.whiteblock1i {
+    width:5px;
+    height:12px;
+    background-color:white;
+    position:absolute;
+    margin-top:10px;
+    margin-left:48.5px;
+}
+.whiteblock2i {
+    width:5px;
+    height:12px;
+    background-color:white;
+    position:absolute;
+    margin-top:10px;
+    margin-left:65.5px;
+}
+.letterjblock {
+    width:20px;
+    height:20px;
+    background-color:black;
+    position:absolute;
+    margin-left:75px;
+    margin-top:6px;
+}
+
+.whiteblock1j {
+    width:5px;
+    height:17px;
+    background-color:white;
+    position:absolute;
+    margin-top:4.5px;
+    margin-left:74px;
+}
+
+.letterkblock {
+    width:20px;
+    height:20px;
+    background-color:black;
+    position:absolute;
+    margin-left:100px;
+    margin-top:6px;
+}
+
+.whiteblock1k {
+    width:10.5px;
+    height:5px;
+    background-color:white;
+    position:absolute;
+    margin-top:5px;
+    margin-left:104.5px;
+}
+
+.whiteblock2k {
+    width:10.5px;
+    height:5px;
+    background-color:white;
+    position:absolute;
+    margin-top:21.75px;
+    margin-left:104.5px;
+}
+
+.whiteblock3k {
+    width:5px;
+    height:2px;
+    background-color:white;
+    position:absolute;
+    margin-top:15px;
+    margin-left:115.5px;
+}
+
+.letterlblock {
+    width:20px;
+    height:20px;
+    background-color:black;
+    position:absolute;
+    margin-left:125px;
+    margin-top:6px;
+}
+
+.whiteblock1l {
+    width:5px;
+    height:17px;
+    background-color:white;
+    position:absolute;
+    margin-top:4.5px;
+    margin-left:140.5px;
+}
+
+.lettermblock {
+    width:20px;
+    height:20px;
+    background-color:black;
+    position:absolute;
+    margin-top:12px;
+}
+
+.whiteblock1m {
+    width:10.5px;
+    height:5px;
+    background-color:white;
+    position:absolute;
+    margin-top:11px;
+    margin-left:4.5px;
+}
+
+.whiteblock2m {
+    width:2px;
+    height:5px;
+    background-color:white;
+    position:absolute;
+    margin-top:27.5px;
+    margin-left:4.5px;
+}
+
+.whiteblock3m {
+    width:2px;
+    height:5px;
+    background-color:white;
+    position:absolute;
+    margin-top:27.5px;
+    margin-left:12.5px;
+}
+.letternblock {
+    width:20px;
+    height:20px;
+    background-color:black;
+    position:absolute;
+    margin-top:12px;
+    margin-left:25px;
+}
+
+.whiteblock1n {
+    width:10.5px;
+    height:5px;
+    background-color:white;
+    position:absolute;
+    margin-top:11px;
+    margin-left:29.5px;
+}
+
+.whiteblock2n {
+    width:2px;
+    height:5px;
+    background-color:white;
+    position:absolute;
+    margin-top:27.5px;
+    margin-left:37.5px;
+}
+
+.letteroblock {
+    width:20px;
+    height:20px;
+    background-color:black;
+    position:absolute;
+    margin-top:12px;
+    margin-left:50px;
+}
+
+.whiteblock1o {
+    width:10.5px;
+    height:10.5px;
+    background-color:white;
+    position:absolute;
+    margin-top:16px;
+    margin-left:54.5px;
+}
+
+.letterpblock {
+    width:20px;
+    height:20px;
+    background-color:black;
+    position:absolute;
+    margin-top:12px;
+    margin-left:75px;
+}
+
+.whiteblock1p {
+    width:10.5px;
+    height:2px;
+    background-color:white;
+    position:absolute;
+    margin-top:16px;
+    margin-left:80px;
+}
+
+.whiteblock2p {
+    width:16.5px;
+    height:4.5px;
+    background-color:white;
+    position:absolute;
+    margin-top:28px;
+    margin-left:80px;
+}
+.letterqblock {
+    width:20px;
+    height:20px;
+    background-color:black;
+    float: left;
+    position:absolute;
+    margin-left:100px;
+    margin-top:12px;
+}
+
+.whiteblock1q {
+    width:12px;
+    height:10.5px;
+    background-color:white;
+    position:absolute;
+    margin-top:16px;
+    margin-left:104.5px;
+}
+
+.whiteblock2q {
+    width:2px;
+    height:7.5px;
+    background-color:white;
+    position:absolute;
+    margin-top:25px;
+    margin-left:114.5px;
+}
+
+.letterrblock {
+    width:20px;
+    height:20px;
+    background-color:black;
+    position:absolute;
+    margin-top:12px;
+    margin-left:125px;
+}
+
+.whiteblock1r {
+    width:10.5px;
+    height:2px;
+    background-color:white;
+    position:absolute;
+    margin-top:16px;
+    margin-left:130px;
+}
+
+.whiteblock2r {
+    width:16.5px;
+    height:4.5px;
+    background-color:white;
+    position:absolute;
+    margin-top:28px;
+    margin-left:130px;
+}
+
+.whiteblock3r {
+    width:3px;
+    height:7.495px;
+    background-color:black;
+    position:absolute;
+    margin-top:25px;
+    margin-left:138.5px;
+}
+
+.lettersblock {
+    width:20px;
+    height:20px;
+    background-color:black;
+    position:absolute;
+    margin-top:18px;   
+}
+
+.whiteblock1s {
+    width:5px;
+    height:2px;
+    background-color:white;
+    position:absolute;
+    margin-top:22px;   
+}
+
+.whiteblock2s {
+    width:5px;
+    height:2px;
+    background-color:white;
+    position:absolute;
+    margin-top:31px; 
+    margin-left:15.75px;
+}
+
+.lettertblock {
+    width:20px;
+    height:20px;
+    background-color:black;
+    position:absolute;
+    margin-left:25px;
+    margin-top:18px;
+}
+.whiteblock1t {
+    width:6px;
+    height:16px;
+    background-color:white;
+    position:absolute;
+    margin-top:23px;
+    margin-left:23.75px;
+}
+.whiteblock2t {
+    width:6px;
+    height:16px;
+    background-color:white;
+    position:absolute;
+    margin-top:23px;
+    margin-left:40.5px;
+}
+
+.letterublock {
+    width:20px;
+    height:20px;
+    background-color:black;
+    position:absolute;
+    margin-top:18px;
+    margin-left:50px;
+}
+
+.whiteblock1u {
+    width:10.5px;
+    height:15px;
+    background-color:white;
+    position:absolute;
+    margin-top:17.25px;
+    margin-left:54.5px;
+}
+
+.lettervblock {
+    width:20px;
+    height:20px;
+    background-color:black;
+    position:absolute;
+    margin-top:18px;
+    margin-left:75px;
+}
+
+.whiteblock1v {
+    width:10.5px;
+    height:18px;
+    background-color:white;
+    position:absolute;
+    margin-top:17px;
+    margin-left:79.5px;
+}
+
+.letterwblock {
+    width:20px;
+    height:20px;
+    background-color:black;
+    position:absolute;
+    margin-top:18px;
+    margin-left:100px;
+}
+
+.whiteblock1w {
+    width:10.5px;
+    height:5px;
+    background-color:white;
+    position:absolute;
+    margin-top:33.5px;
+    margin-left:104.5px;
+}
+
+.whiteblock2w {
+    width:2px;
+    height:5px;
+    background-color:white;
+    position:absolute;
+    margin-top:16.5px;
+    margin-left:104.5px;
+}
+.whiteblock2w {
+    width:2px;
+    height:5px;
+    background-color:white;
+    position:absolute;
+    margin-top:16.5px;
+    margin-left:104.5px;
+}
+.whiteblock3w {
+    width:2px;
+    height:5px;
+    background-color:white;
+    position:absolute;
+    margin-top:16.5px;
+    margin-left:112.5px;
+}
+.letterxblock {
+    width:20px;
+    height:20px;
+    background-color:black;
+    position:absolute;
+    margin-left:125px;
+    margin-top:18px;
+}
+
+.whiteblock1x {
+    width:10.5px;
+    height:5px;
+    background-color:white;
+    position:absolute;
+    margin-top:17px;
+    margin-left:129.5px;
+}
+
+.whiteblock2x {
+    width:10.5px;
+    height:5px;
+    background-color:white;
+    position:absolute;
+    margin-top:34px;
+    margin-left:129.5px;
+}
+
+.whiteblock3x {
+    width:5px;
+    height:2px;
+    background-color:white;
+    position:absolute;
+    margin-top:27px;
+    margin-left:140.5px;
+}
+
+.whiteblock4x {
+    width:5px;
+    height:2px;
+    background-color:white;
+    position:absolute;
+    margin-top:27px;
+    margin-left:124px;
+}
+
+.letteryblock {
+    width:20px;
+    height:20px;
+    background-color:black;
+    position:absolute;
+    margin-top:24px;
+}
+.whiteblock1y {
+    width:6px;
+    height:16px;
+    background-color:white;
+    position:absolute;
+    margin-top:31px;
+    margin-left:-2px;
+  
+}
+.whiteblock2y {
+    width:6px;
+    height:16px;
+    background-color:white;
+    position:absolute;
+    margin-top:31px;
+    margin-left:16px;
+    
+}
+
+.whiteblock3y {
+    width:10.5px;
+    height:5px;
+    background-color:white;
+    position:absolute;
+    margin-top:23px;
+    margin-left:4.5px
+}
+
+.letterzblock {
+    width:20px;
+    height:20px;
+    background-color:black;
+    position:absolute;
+    margin-top:24px;
+    margin-left:25px;
+}
+
+.whiteblock1z {
+    width:5px;
+    height:2px;
+    background-color:white;
+    position:absolute;
+    margin-top:37px; 
+    margin-left:41px;
+}
+
+.whiteblock2z {
+    width:5px;
+    height:2px;
+    background-color:white;
+    position:absolute;
+    margin-top:29px; 
+    margin-left:25px;
+}
