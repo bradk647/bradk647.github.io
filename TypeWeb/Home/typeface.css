@@ -2,6 +2,63 @@
     background-color:#fff;
 }
 
+.menu {
+    position: relative;
+  top: 20%;
+  transform: translateY(-50%);
+}
+
+#seal {
+    margin-left:-10px;
+    margin-top:5px;
+}
+.tile1 {
+    width:30px;
+    height:30px;
+    background:#00CC00;
+    margin-left:25px;
+    margin-top:50px;
+
+}
+
+.tile2 {
+    width:30px;
+    height:30px;
+    background:#00CC00;
+    margin-left:25px;
+    margin-top:30px;
+}
+
+.tile3 {
+    width:30px;
+    height:30px;
+    background:#00CC00;
+    margin-left:25px;
+    margin-top:30px;
+    
+}
+
+
+.tile4 {
+    width:30px;
+    height:30px;
+    background:#00CC00;
+    margin-left:25px;
+    margin-top:30px;
+}
+
+
+.tile5 {
+    width:30px;
+    height:30px;
+    background:#00CC00;
+    margin-left:25px;
+    margin-top:30px;
+}
+
+
+
+
 .alphabet-wrapper {
     position: absolute;
   left: 50%;
