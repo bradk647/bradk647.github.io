@@ -1,9 +1,23 @@
 <html>
   <head>
     <link href="maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../911/ddpowerzoomer.1.js"></script>
     <link href='911.css' rel='stylesheet'>
 
+    <script type="text/javascript">
+        jQuery(document).ready(function($){ //fire on DOM ready
+         $('#myimage').addpowerzoom({
+         defaultpower: 2,
+         powerrange: [2,5],
+         largeimage: null,
+         magnifiersize: [100,100] //<--no comma following last option!
+        })
+     })
+</script>
+            
+</script>
   </head>
   <body>
 
@@ -30,7 +44,7 @@
     </div>
 
     <!-- Main body -->
-    <div class="jumbotron">
+    <div class="jumbotron" id="myimage">
 
       <div class="icon-menu">
         <i class="fa fa-bars"></i>
@@ -38,6 +52,7 @@
       </div>
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="911.js"></script>
+    <script src="../911/menu6.js"></script>
+    <script src="../Home/ddpowerzoomer.js"></script>
   </body>
 </html>

@@ -1,13 +1,3 @@
-/*Image Power Zoomer v1.1 (June 18th, 2010)
-* This notice must stay intact for usage 
-* Author: Dynamic Drive at http://www.dynamicdrive.com/
-* Visit http://www.dynamicdrive.com/ for full source code
-*/
-
-//June 18th, 10: Adds ability to specify a different, higher resolution version of the original image as the image shown inside the magnifying glass.
-
-jQuery.noConflict()
-
 var ddpowerzoomer={
 	dsetting: {defaultpower:2, powerrange:[2,7], magnifiersize:[175, 175]},
 	mousewheelevt: (/Firefox/i.test(navigator.userAgent))? "DOMMouseScroll" : "mousewheel", //FF doesn't recognize mousewheel as of FF3.x

@@ -1,0 +1,46 @@
+body {
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.jumbotron, #myimage{
+  background-image: url('9111.jpg');
+  height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.tile1 {
+    width:5px;
+    height:20px;
+    background:yellow;
+    z-index:1;
+}
+
+.tile2 {
+    width:5px;
+    height:20px;
+    background-color:yellow;
+}
+
+.tile3 {
+    width:5px;
+    height:20px;
+    background-color:yellow;
+    
+}
+
+.tile4 {
+    width:5px;
+    height:20px;
+    background-color:yellow;
+}
+.tile5 {
+    width:5px;
+    height:20px;
+    background-color:yellow;
+}
