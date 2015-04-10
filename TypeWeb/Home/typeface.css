@@ -4,8 +4,8 @@
 
 .start {
     position: absolute;
-  left: 51%;
-  top: 30%;
+  left: 50.5%;
+  top: 35%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width:30px;
@@ -19,8 +19,8 @@
 
 #t {
      position: absolute;
-  left: 50%;
-  top: 10%;
+  left: 51%;
+  top: 90%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
