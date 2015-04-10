@@ -1,6 +1,17 @@
 .body {
     background-color:#fff;
 }
+
+.start {
+    position: absolute;
+  left: 50.5%;
+  top: 30%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width:30px;
+    height:30px;
+    background:#00CC00;
+}
 #seal {
     margin-left:35%%;
     margin-top:20%;
