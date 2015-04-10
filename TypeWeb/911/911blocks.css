@@ -32,15 +32,49 @@
 }
 
 .b-wrapper1:hover .whiteblock1b1 {
-    background-color: #fff;
+    background-color: #00CC00;
     
 }
 
 .b-wrapper1:hover .whiteblock2b1 {
-    background-color: #fff;
+    background-color: #00CC00;
 }
 
 .b-wrapper1:hover{
+    -webkit-box-shadow: 10px 18px 123px 70px rgba(0,255,0,1);
+-moz-box-shadow: 10px 18px 123px 70px rgba(0,255,0,1);
+box-shadow: 10px 18px 123px 70px rgba(0,255,0,1);
+}
+
+.c-wrapper1 {
+    position:relative;
+    display:inline-block;
+    margin-left:700px;
+    margin-top:-250px;
+}
+
+.lettercblock1 {
+    width:20px;
+    height:20px;
+    background-color:#000;
+    position:absolute;
+    
+}
+
+.whiteblock1c1 {
+    width:15px;
+    height:9px;
+    background-color:#000;
+    position:absolute;
+    top:5px;
+    left:5px;
+}
+
+.c-wrapper1:hover .whiteblock1c1 {
+    background: #00CC00 
+}
+
+.c-wrapper1:hover {
     -webkit-box-shadow: 10px 18px 123px 70px rgba(0,255,0,1);
 -moz-box-shadow: 10px 18px 123px 70px rgba(0,255,0,1);
 box-shadow: 10px 18px 123px 70px rgba(0,255,0,1);
