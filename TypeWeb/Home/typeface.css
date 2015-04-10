@@ -4,7 +4,7 @@
 
 .start {
     position: absolute;
-  left: 51.4%;
+  left: 51%;
   top: 30%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -15,6 +15,14 @@
 #seal {
     margin-left:35%%;
     margin-top:20%;
+}
+
+#t {
+     position: absolute;
+  left: 50%;
+  top: 10%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 /*.investigate {*/
