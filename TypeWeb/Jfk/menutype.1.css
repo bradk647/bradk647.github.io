@@ -1,0 +1,205 @@
+.a-wrapper {
+    position:relative;
+    display:inline-block;
+    margin-top:-25px;
+    margin-left:30;
+}
+
+.letterablock {
+    width:20px;
+    height:20px;
+    background-color:#000;
+    position:absolute;
+    
+}
+
+.whiteblock1a {
+    width:10px;
+    height:2px;
+    background-color: #000;
+    position:absolute;
+    top: 5px;
+    left: 5px;
+ 
+}
+.whiteblock2a {
+    width:10px;
+    height:6px;
+    background-color:#000;
+    position:absolute;
+    bottom: -20px;
+    left: 5px;
+}
+
+.a-wrapper:hover .whiteblock1a {
+    background-color: #00CC00;
+}
+
+.a-wrapper:hover .whiteblock2a {
+    background-color: #00CC00;
+}
+
+
+
+.d-wrapper {
+    position:relative;
+    display:inline-block;
+    margin-left:30px;
+    margin-top:-25px;
+}
+
+.letterdblock {
+    width:20px;
+    height:20px;
+    background-color:#000;
+    position:absolute;
+}
+
+.whiteblock1d {
+    width:11px;
+    height:10px;
+    background-color:#000;
+    position:absolute;
+    top:5px;
+    left:6px;
+}
+
+.d-wrapper:hover .whiteblock1d {
+    background: #00CC00 
+}
+
+
+
+.m-wrapper {
+    position:relative;
+    display:inline-block;
+    margin-top:-25px;
+    margin-left:30px;
+}
+
+.lettermblock {
+    width:20px;
+    height:20px;
+    background-color:#000;
+    position:absolute;
+}
+
+.whiteblock1m {
+    width:10px;
+    height:5px;
+    background-color:#000;
+    position:absolute;
+    top:0px;
+    left:5px;
+}
+
+.whiteblock2m {
+    width:2px;
+    height:5px;
+    background-color:#000;
+    position:absolute;
+    top:15px;
+    left:5px;
+}
+
+.whiteblock3m {
+    width:2px;
+    height:5px;
+    background-color:#000;
+    position:absolute;
+    top:15px;
+    left:13px;
+}
+
+.m-wrapper:hover .whiteblock1m {
+    background-color: #00CC00;
+}
+
+.m-wrapper:hover .whiteblock2m {
+    background-color: #00CC00;
+}
+
+.m-wrapper:hover .whiteblock3m {
+    background-color: #00CC00;
+}
+
+
+.p-wrapper {
+    position:relative;
+    display:inline-block;
+    margin-top:-25px;
+    margin-left:30px;
+}
+
+.letterpblock {
+    width:20px;
+    height:20px;
+    background-color:#000;
+    position:absolute;
+}
+
+.whiteblock1p {
+    width:10px;
+    height:2px;
+    background-color:#000;
+    position:absolute;
+    top:5px;
+    left:5px;
+}
+
+.whiteblock2p {
+    width:15px;
+    height:5px;
+    background-color:#000;
+    position:absolute;
+    top:15px;
+    left:5px;
+}
+
+.p-wrapper:hover .whiteblock1p {
+    background-color: #00CC00;
+}
+
+.p-wrapper:hover .whiteblock2p {
+    background-color: #00CC00;
+}
+
+
+.nine-wrapper {
+    position:relative;
+    display:inline-block;
+    margin-top:-25px;
+    margin-left:30px;
+}
+
+.number9block {
+    width:20px;
+    height:20px;
+    background-color:#000;
+    position:absolute;
+}
+.whiteblock9-1 {
+    width:10px;
+    height:2px;
+    background-color:#000;
+    position:absolute;
+    top:5px; 
+    left:5px;
+}
+
+.whiteblock9-2 {
+    width:15px;
+    height:5px;
+    background-color:#000;
+    position:absolute;
+    top:15px; 
+    left:0px;
+}
+
+.nine-wrapper:hover .whiteblock9-1 {
+    background-color: #00CC00;
+}
+.nine-wrapper:hover .whiteblock9-2 {
+    background-color: #00CC00;
+}
+
