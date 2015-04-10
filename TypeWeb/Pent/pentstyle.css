@@ -1,4 +1,68 @@
-/*body {*/
-/*    background-image:url("http://cdn2.hubspot.net/hub/64787/file-444902994-jpg/The_Pentagon.jpg");*/
-/*    background-size:300%;*/
-/*}*/
+body {
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+background-image: url('The_Pentagon.jpg');
+  height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+
+.menu {
+    position: relative;
+  top: 20%;
+  transform: translateY(-50%);
+}
+
+#seal {
+    margin-left:-10px;
+    margin-top:5px;
+}
+.tile1 {
+    width:30px;
+    height:30px;
+    background:#00CC00;
+    margin-left:25px;
+    margin-top:50px;
+
+}
+
+.tile2 {
+    width:30px;
+    height:30px;
+    background:#00CC00;
+    margin-left:25px;
+    margin-top:30px;
+}
+
+.tile3 {
+    width:30px;
+    height:30px;
+    background:#00CC00;
+    margin-left:25px;
+    margin-top:30px;
+    
+}
+
+
+.tile4 {
+    width:30px;
+    height:30px;
+    background:#00CC00;
+    margin-left:25px;
+    margin-top:30px;
+}
+
+
+.tile5 {
+    width:30px;
+    height:30px;
+    background:#00CC00;
+    margin-left:25px;
+    margin-top:30px;
+}
+
