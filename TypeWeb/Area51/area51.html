@@ -3,7 +3,7 @@
     <title>AREA51</title>
     <link href='area51.css' rel='stylesheet'>
     <link href='../menutype.css' rel='stylesheet'>
-    <link href='area51blocks.css' rel='stylesheet'>
+    <link href='../911/911blocks.css' rel='stylesheet'>
 </head>
 <body>
     <a href="../Home/typeface.html"><img src="../Home/seal.png" id="seal" height="90" width="90"></a>
@@ -49,23 +49,44 @@
       </div>
 
 
-<p><a href="http://www.gifbin.com/bin/1232550815_bush%20doing%20the%20happy%20dance.gif" onclick="centeredPopup(this.href,'myWindow','700','300','yes');return false">
-    <div class="b-wrapper1">
-        <div class="letterbblock1" id="firstblock"></div>
-            <div class="whiteblock1b1"></div>
-            <div class="whiteblock2b1"></div>
-    </div></a></p>
+<a href="http://www.cnn.com/2013/08/15/us/area-51-documents/index.html?hpt=hp_t2" onclick="return popitup('http://www.cnn.com/2013/08/15/us/area-51-documents/index.html?hpt=hp_t2')"
+	> <div class="c-wrapper2">
+        <div class="lettercblock2" id="firstblock"></div>
+            <div class="whiteblock1c2"></div>
+           
+    </div></a>
+    
+    <a href="http://i.imgur.com/bHOdFLT.gif" onclick="return popitup('http://i.imgur.com/bHOdFLT.gif')"
+	> <div class="a-wrapper2">
+        <div class="letterablock2" id="firstblock"></div>
+            <div class="whiteblock1a2"></div>
+           <div class="whiteblock2a2"></div>
+    </div></a>
+    
+    <a href="http://media.giphy.com/media/qoZYnzZHq3ziM/giphy.gif" onclick="return popitup('http://media.giphy.com/media/qoZYnzZHq3ziM/giphy.gif')"
+	> <div class="u-wrapper2">
+        <div class="letterublock2" id="firstblock"></div>
+            <div class="whiteblock1u2"></div>
+    </div></a>
 
 </body>
 <script>
-    <script language="javascript">
-var popupWindow = null;
-function centeredPopup(url,winName,w,h,scroll){
-LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
-TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
-settings =
-'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable'
-popupWindow = window.open(url,winName,settings)
+function popitup(url) {
+	newwindow=window.open(url,'name','height=700,width=400');
+	if (window.focus) {newwindow.focus()}
+	return false;
 }
 
+function popitup(url) {
+	newwindow=window.open(url,'name','height=500,width=500');
+	if (window.focus) {newwindow.focus()}
+	return false;
+}
+
+function popitup(url) {
+	newwindow=window.open(url,'name','height=400,width=500');
+	if (window.focus) {newwindow.focus()}
+	return false;
+}
+</script>
 </html>

@@ -6,7 +6,7 @@
     <link href='911blocks.css' rel='stylesheet'>
 </head>
 <body>
-    
+
     <a href="../Home/typeface.html"><img src="../Home/seal.png" id="seal" height="90" width="90"></a>
     <div class="menu">
         <a href="../Jfk/jfk.html">
@@ -62,6 +62,14 @@
             <div class="whiteblock1c1"></div>
             <div class="whiteblock2c1"></div>
     </div></a>
+    
+    <a href="http://www.cnn.com/2013/12/21/us/obama-national-security-documents/" onclick="return popitup('http://www.cnn.com/2013/12/21/us/obama-national-security-documents/')"
+	> <div class="c-wrapper1">
+        <div class="lettercblock1" id="firstblock1"></div>
+            <div class="whiteblock1c1"></div>
+            <div class="whiteblock2c1"></div>
+    </div></a>
+    
 </body>
 
     <script language="javascript" type="text/javascript">
@@ -77,6 +85,13 @@ function popitup(url) {
 	if (window.focus) {newwindow.focus()}
 	return false;
 }
+
+function popitup(url) {
+	newwindow=window.open(url,'name','height=300,width=250');
+	if (window.focus) {newwindow.focus()}
+	return false;
+}
+
 
 </script>
 </html>
