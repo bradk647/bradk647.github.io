@@ -6,6 +6,29 @@
     margin-top:20%;
 }
 
+.in {
+    position:relative;
+    display:inline-block;
+    margin-left:39.5%;
+    margin-top:20%;
+}
+
+.god {
+    position:relative;
+    display:inline-block;
+}
+
+.we {
+    position:relative;
+    display:inline-block;
+     margin-left:38%;
+    margin-top:%;
+}
+
+.trust {
+    position:relative;
+    display:inline-block;
+}
 /*.investigate {*/
 /*    margin-left:43.5%;*/
 /*    margin-top:-7%;*/
@@ -126,23 +149,23 @@
     background: #fff 
 }
 
-.d-wrapper {
+.d-wrapper2 {
     position:relative;
     display:inline-block;
     margin-left:20px;
 }
 
-.letterdblock {
+.letterdblock2 {
     width:20px;
     height:20px;
     background-color:#000;
     position:absolute;
 }
 
-.whiteblock1d {
+.whiteblock1d2 {
     width:11px;
     height:10px;
-    background-color:#000;
+    background-color:#fff;
     position:absolute;
     top:5px;
     left:6px;
@@ -152,32 +175,32 @@
     background: #fff 
 }
 
-.e-wrapper {
+.e-wrapper2 {
     position:relative;
     display:inline-block;
-    margin-left:20px;
+    
 }
 
-.lettereblock {
+.lettereblock2 {
     width:20px;
     height:20px;
     background-color:#000;
     position:absolute;
     
 }
-.whiteblock1e {
+.whiteblock1e2 {
     width:15px;
     height:2px;
-    background-color:#000;
+    background-color:#fff;
     position:absolute;
     top:5px;
     left:5px;
         
 }
-.whiteblock2e {
+.whiteblock2e2 {
     width:15px;
     height:2px;
-    background-color:#000;
+    background-color:#fff;
     position:absolute;
     bottom:-15px;
     left:5px;
@@ -230,13 +253,13 @@
     background-color: #fff;
 }
 
-.g-wrapper {
+.g-wrapper2 {
     position:relative;
     display:inline-block;
     margin-top:20px;
 }
 
-.lettergblock {
+.lettergblock2 {
     width:20px;
     height:20px;
     background-color:#000;
@@ -244,17 +267,17 @@
 }
 
 
-.whiteblock1g {
+.whiteblock1g2 {
     width:15px;
     height:9px;
-    background-color:#000;
+    background-color:#fff;
     position:absolute;
     top:5px;
     left:5px;
     
 }
 
-.whiteblock2g {
+.whiteblock2g2 {
     width:3px;
     height:7px;
     background-color:#000;
@@ -306,31 +329,31 @@
     background-color: #fff;
 }
 
-.i-wrapper {
+.i-wrapper2 {
     position:relative;
     display:inline-block;
     margin-top:10px;
     margin-left:20px;
 }
 
-.letteriblock {
+.letteriblock2 {
     width:20px;
     height:20px;
     background-color:#000;
     position:absolute;
 }
-.whiteblock1i {
+.whiteblock1i2 {
     width:5px;
     height:10px;
-    background-color:#000;
+    background-color:#fff;
     position:absolute;
     top:5px;
     left:0px;
 }
-.whiteblock2i {
+.whiteblock2i2 {
     width:5px;
     height:10px;
-    background-color:#000;
+    background-color:#fff;
     position:absolute;
     top:5px;
     right:-20px;
@@ -505,33 +528,33 @@
     background-color: #fff;
 }
 
-.n-wrapper {
+.n-wrapper2 {
     position:relative;
     display:inline-block;
     margin-top:20px;
     margin-left:20px;
 }
 
-.letternblock {
+.letternblock2 {
     width:20px;
     height:20px;
     background-color:#000;
     position:absolute;
 }
 
-.whiteblock1n {
+.whiteblock1n2 {
     width:10px;
     height:5px;
-    background-color:#000;
+    background-color:#fff;
     position:absolute;
     top:0px;
     left:5px;
 }
 
-.whiteblock2n {
+.whiteblock2n2 {
     width:2px;
     height:5px;
-    background-color:#000;
+    background-color:#fff;
     position:absolute;
     top:15px;
     left:13px;
@@ -545,24 +568,24 @@
     background-color: #fff;
 }
 
-.o-wrapper {
+.o-wrapper2 {
     position:relative;
     display:inline-block;
     margin-top:20px;
     margin-left:20px;
 }
 
-.letteroblock {
+.letteroblock2 {
     width:20px;
     height:20px;
     background-color:#000;
     position:absolute;
 }
 
-.whiteblock1o {
+.whiteblock1o2 {
     width:10px;
     height:10px;
-    background-color:#000;
+    background-color:#fff;
     position:absolute;
     top:5px;
     left:5px;
@@ -652,39 +675,39 @@
     background-color: #fff;
 }
 
-.r-wrapper {
+.r-wrapper2 {
     position:relative;
     display:inline-block;
     margin-top:20px;
     margin-left:20px;
 }
 
-.letterrblock {
+.letterrblock2 {
     width:20px;
     height:20px;
     background-color:#000;
     position:absolute;
 }
 
-.whiteblock1r {
+.whiteblock1r2 {
     width:10px;
     height:2px;
-    background-color:#000;
+    background-color:#fff;
     position:absolute;
     top:5px;
     left:5px;
 }
 
-.whiteblock2r {
+.whiteblock2r2 {
     width:15px;
     height:5px;
-    background-color:#000;
+    background-color:#fff;
     position:absolute;
     top:15px;
     left:5px;
 }
 
-.whiteblock3r {
+.whiteblock3r2 {
     width:3px;
     height:6px;
     background-color:#000;
@@ -704,33 +727,33 @@
     background-color: #fff;
 }
 
-.s-wrapper {
+.s-wrapper2 {
     position:relative;
     display:inline-block;
     margin-top:20px;
     margin-left:0px;
 }
 
-.lettersblock {
+.lettersblock2 {
     width:20px;
     height:20px;
     background-color:#000;
     position:absolute;
 }
 
-.whiteblock1s {
+.whiteblock1s2 {
     width:5px;
     height:2px;
-    background-color:#000;
+    background-color:#fff;
     position:absolute;
     top:5px;
     left:15px;
 }
 
-.whiteblock2s {
+.whiteblock2s2 {
     width:5px;
     height:2px;
-    background-color:#000;
+    background-color:#fff;
     position:absolute;
     top:13px; 
     left:0px;
@@ -745,31 +768,61 @@
 }
 
 
-.t-wrapper {
+.t-wrapper2 {
     position:relative;
     display:inline-block;
     margin-top:20px;
     margin-left:20px;
 }
 
-.lettertblock {
+.lettertblock2 {
     width:20px;
     height:20px;
     background-color:#000;
     position:absolute;
 }
-.whiteblock1t {
+.whiteblock1t2 {
     width:5px;
     height:15px;
-    background-color:#000;
+    background-color:#fff;
     position:absolute;
     top:5px;
     left:0px;
 }
-.whiteblock2t {
+.whiteblock2t2 {
     width:5px;
     height:15px;
+    background-color:#fff;
+    position:absolute;
+    top:5px;
+    left:15px;
+}
+
+.t-wrapper3 {
+    position:relative;
+    display:inline-block;
+    margin-top:20px;
+    margin-left:20px;
+}
+
+.lettertblock3 {
+    width:20px;
+    height:20px;
     background-color:#000;
+    position:absolute;
+}
+.whiteblock1t3 {
+    width:5px;
+    height:15px;
+    background-color:#fff;
+    position:absolute;
+    top:5px;
+    left:0px;
+}
+.whiteblock2t3 {
+    width:5px;
+    height:15px;
+    background-color:#fff;
     position:absolute;
     top:5px;
     left:15px;
@@ -782,24 +835,24 @@
 .t-wrapper:hover .whiteblock2t {
     background-color: #fff;
 }
-.u-wrapper {
+.u-wrapper2 {
     position:relative;
     display:inline-block;
     margin-top:20px;
     margin-left:20px;
 }
 
-.letterublock {
+.letterublock2 {
     width:20px;
     height:20px;
     background-color:#000;
     position:absolute;
 }
 
-.whiteblock1u {
+.whiteblock1u2 {
     width:10px;
     height:15px;
-    background-color:#000;
+    background-color:#fff;
     position:absolute;
     top:0px;
     left:5px;
@@ -835,41 +888,41 @@
     background-color: #fff;
 }
 
-.w-wrapper {
+.w-wrapper2 {
     position:relative;
     display:inline-block;
     margin-top:20px;
-    margin-left:20px;
+    margin-left:5px;
 }
 
-.letterwblock {
+.letterwblock2 {
     width:20px;
     height:20px;
     background-color:#000;
     position:absolute;
 }
 
-.whiteblock1w {
+.whiteblock1w2 {
     width:10px;
     height:5px;
-    background-color:#000;
+    background-color:#fff;
     position:absolute;
     top:15px;
     left:5px;
 }
 
-.whiteblock2w {
+.whiteblock2w2 {
     width:2px;
     height:5px;
-    background-color:#000;
+    background-color:#fff;
     position:absolute;
     top:0px;
     left:5px;
 }
-.whiteblock3w {
+.whiteblock3w2 {
     width:2px;
     height:5px;
-    background-color:#000;
+    background-color:#fff;
     position:absolute;
     top:0px;
     left:13px;
