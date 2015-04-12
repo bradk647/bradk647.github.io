@@ -3,12 +3,27 @@ body {
   margin: 0;
   overflow: hidden;
   position: relative;
+  background-color:black;
   background-image: url('area_51_satellige_image_july_03.jpg');
   height: 100%;
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
+}
+
+.infobox{
+    width: 200px;
+    font-family:'Lekton',sans-serif;
+    font-size:12px;
+    line-height:1.2em;
+    padding: 10px;
+    background-color:white;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,204,0,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,204,0,1);
+box-shadow: 10px 10px 5px 0px rgba(0,204,0,1);
+margin-left:85%;
+margin-top:2%;
 }
 
 
@@ -19,7 +34,7 @@ body {
 }
 
 #seal {
-    margin-left:-10px;
+    margin-left:-5px;
     margin-top:5px;
 }
 .tile1 {
@@ -27,7 +42,7 @@ body {
     height:30px;
     background:#00CC00;
     margin-left:25px;
-    margin-top:50px;
+    margin-top:40px;
 
 }
 

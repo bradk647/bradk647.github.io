@@ -10,6 +10,7 @@ body {
      -moz-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
+         
           
 }
 
@@ -24,7 +25,7 @@ body {
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,204,0,1);
 box-shadow: 10px 10px 5px 0px rgba(0,204,0,1);
 margin-left:85%;
-margin-top:3%;
+margin-top:2%;
 }
 
 .menu {
@@ -42,7 +43,7 @@ margin-top:3%;
     height:30px;
     background:#00CC00;
     margin-left:25px;
-    margin-top:50px;
+    margin-top:40px;
 
 }
 
