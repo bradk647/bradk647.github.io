@@ -3,6 +3,7 @@ body {
   margin: 0;
   overflow: hidden;
   position: relative;
+  background-color:#000;
 background-image: url('The_Pentagon.jpg');
   height: 100%;
   -webkit-background-size: cover;
@@ -11,7 +12,6 @@ background-image: url('The_Pentagon.jpg');
           background-size: cover;
 }
 
-
 .menu {
     position: relative;
   top: 20%;
@@ -19,15 +19,15 @@ background-image: url('The_Pentagon.jpg');
 }
 
 #seal {
-    margin-left:-10px;
-    margin-top:5px;
+    margin-left:-5px;
+    margin-top:-130px;
 }
 .tile1 {
     width:30px;
     height:30px;
     background:#00CC00;
     margin-left:25px;
-    margin-top:50px;
+    margin-top:40px;
 
 }
 
@@ -65,4 +65,3 @@ background-image: url('The_Pentagon.jpg');
     margin-left:25px;
     margin-top:30px;
 }
-
