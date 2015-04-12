@@ -1,0 +1,399 @@
+.a-wrapper1 {
+    position:absolute;
+    margin-left:250px;
+    margin-top:-35px;
+}
+
+.letterablock1 {
+    width:20px;
+    height:20px;
+    background-color:blue;
+    position:absolute;
+    
+}
+
+.whiteblock1a1 {
+    width:10px;
+    height:2px;
+    background-color: #000;
+    position:absolute;
+    top: 5px;
+    left: 5px;
+ 
+}
+.whiteblock2a1 {
+    width:10px;
+    height:6px;
+    background-color:#000;
+    position:absolute;
+    bottom: -20px;
+    left: 5px;
+}
+
+.a-wrapper1:hover .whiteblock1a1 {
+    background-color: #fff;
+}
+
+.a-wrapper1:hover .whiteblock2a1 {
+    background-color: #fff;
+}
+
+.f-wrapper1 {
+    position:absolute;
+    margin-left:250px;
+    margin-top:-435px;
+}
+
+.letterfblock1 {
+    width:20px;
+    height:20px;
+    background-color:blue;
+    position:absolute;
+}
+
+.whiteblock1f1 {
+    width:15px;
+    height:2px;
+    background-color:#000;
+    position:absolute;
+    top:5px;
+    left:5px;
+}
+
+.whiteblock2f1 {
+    width:15px;
+    height:6px;
+    background-color:#000;
+    position:absolute;
+    top:14px;
+    left:5px;
+}
+
+.f-wrapper1:hover .whiteblock1f1 {
+    background-color: #fff;
+}
+
+.f-wrapper1:hover .whiteblock2f1 {
+    background-color: #fff;
+}
+
+.j-wrapper1 {
+    position:absolute;
+    margin-left:400px;
+    margin-top:-200px;
+}
+
+.letterjblock1 {
+    width:20px;
+    height:20px;
+    background-color:#000;
+    position:absolute;
+}
+
+.whiteblock1j1 {
+    width:5px;
+    height:15px;
+    background-color:#000;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+.j-wrapper1:hover .whiteblock1j1 {
+    background-color: #fff;
+}
+.m-wrapper1 {
+    position:absolute;
+    margin-left:500px;
+    margin-top:100px;
+}
+
+.lettermblock1 {
+    width:20px;
+    height:20px;
+    background-color:blue;
+    position:absolute;
+}
+
+.whiteblock1m1 {
+    width:10px;
+    height:5px;
+    background-color:#000;
+    position:absolute;
+    top:0px;
+    left:5px;
+}
+
+.whiteblock2m1 {
+    width:2px;
+    height:5px;
+    background-color:#000;
+    position:absolute;
+    top:15px;
+    left:5px;
+}
+
+.whiteblock3m1 {
+    width:2px;
+    height:5px;
+    background-color:#000;
+    position:absolute;
+    top:15px;
+    left:13px;
+}
+
+.m-wrapper1:hover .whiteblock1m1 {
+    background-color: #fff;
+}
+
+.m-wrapper1:hover .whiteblock2m1 {
+    background-color: #fff;
+}
+
+.m-wrapper1:hover .whiteblock3m1 {
+    background-color: #fff;
+}
+
+.m-wrapper2 {
+    position:absolute;
+    margin-left:400px;
+    margin-top:-400px;
+}
+
+.lettermblock2 {
+    width:20px;
+    height:20px;
+    background-color:blue;
+    position:absolute;
+}
+
+.whiteblock1m2 {
+    width:10px;
+    height:5px;
+    background-color:#000;
+    position:absolute;
+    top:0px;
+    left:5px;
+}
+
+.whiteblock2m2 {
+    width:2px;
+    height:5px;
+    background-color:#000;
+    position:absolute;
+    top:15px;
+    left:5px;
+}
+
+.whiteblock3m2 {
+    width:2px;
+    height:5px;
+    background-color:#000;
+    position:absolute;
+    top:15px;
+    left:13px;
+}
+
+.m-wrapper2:hover .whiteblock1m2 {
+    background-color: #fff;
+}
+
+.m-wrapper2:hover .whiteblock2m2 {
+    background-color: #fff;
+}
+
+.m-wrapper2:hover .whiteblock3m2 {
+    background-color: #fff;
+}
+
+.n-wrapper1 {
+    position:absolute;
+    margin-left:500px;
+    margin-top:-400px;
+}
+
+.letternblock1 {
+    width:20px;
+    height:20px;
+    background-color:blue;
+    position:absolute;
+}
+
+.whiteblock1n1 {
+    width:10px;
+    height:5px;
+    background-color:#000;
+    position:absolute;
+    top:0px;
+    left:5px;
+}
+
+.whiteblock2n1 {
+    width:2px;
+    height:5px;
+    background-color:#000;
+    position:absolute;
+    top:15px;
+    left:13px;
+}
+
+.n-wrapper1:hover .whiteblock1n1 {
+    background-color: #fff;
+}
+
+.n-wrapper1:hover .whiteblock2n1 {
+    background-color: #fff;
+}
+
+.p-wrapper1 {
+    position:absolute;
+    margin-left:190px;
+    margin-top:115px;
+}
+
+.letterpblock1 {
+    width:20px;
+    height:20px;
+    background-color:blue;
+    position:absolute;
+}
+
+.whiteblock1p1 {
+    width:10px;
+    height:2px;
+    background-color:#000;
+    position:absolute;
+    top:5px;
+    left:5px;
+}
+
+.whiteblock2p1 {
+    width:15px;
+    height:5px;
+    background-color:#000;
+    position:absolute;
+    top:15px;
+    left:5px;
+}
+
+.p-wrapper1:hover .whiteblock1p1 {
+    background-color: #fff;
+}
+
+.p-wrapper1:hover .whiteblock2p1 {
+    background-color: #fff;
+}
+
+.r-wrapper1 {
+    position:absolute
+    margin-top:-00px;
+     margin-left:700px;
+}
+
+.letterrblock1 {
+    width:20px;
+    height:20px;
+    background-color:blue;
+    position:absolute;
+}
+
+.whiteblock1r1 {
+    width:10px;
+    height:2px;
+    background-color:#000;
+    position:absolute;
+    top:5px;
+    left:5px;
+}
+
+.whiteblock2r1 {
+    width:15px;
+    height:5px;
+    background-color:#000;
+    position:absolute;
+    top:15px;
+    left:5px;
+}
+
+.whiteblock3r1 {
+    width:3px;
+    height:6px;
+    background-color:#000;
+    position:absolute;
+    top:14px;
+    left:13px;
+}
+
+.r-wrapper1:hover .whiteblock1r1 {
+    background-color: #fff;
+}
+
+.r-wrapper1:hover .whiteblock2r1 {
+    background-color: #fff;
+}
+.r-wrapper1:hover .whiteblock1r1 {
+    background-color: #fff;
+}
+.s-wrapper1 {
+    position:absolute;
+    margin-left:200px;
+    margin-top:-400px;
+}
+
+.lettersblock1 {
+    width:20px;
+    height:20px;
+    background-color:blue;
+    position:absolute;
+}
+
+.whiteblock1s1 {
+    width:5px;
+    height:2px;
+    background-color:#000;
+    position:absolute;
+    top:5px;
+    left:15px;
+}
+
+.whiteblock2s1 {
+    width:5px;
+    height:2px;
+    background-color:#000;
+    position:absolute;
+    top:13px; 
+    left:0px;
+}
+
+.s-wrapper1:hover .whiteblock1s1 {
+    background-color: #fff;
+}
+
+.s-wrapper1:hover .whiteblock2s1 {
+    background-color: #fff;
+}
+.v-wrapper1 {
+    position:absolute:
+     margin-left:200px;
+     margin-top:-50px;
+}
+
+.lettervblock1 {
+    width:20px;
+    height:20px;
+    background-color:blue;
+    position:absolute;
+}
+
+.whiteblock1v1 {
+    width:10px;
+    height:17px;
+    background-color:#000;
+    position:absolute;
+    top:0px;
+    left:5px;
+}
+
+.v-wrapper1:hover .whiteblock1v1 {
+    background-color: #fff;
+}

@@ -3,6 +3,7 @@ body {
   margin: 0;
   overflow: hidden;
   position: relative;
+  background-color:#000;
   background-image: url('apollo.jpg');
   height: 100%;
   -webkit-background-size: cover;
@@ -10,7 +11,26 @@ body {
        -o-background-size: cover;
           background-size: cover;
 }
-
+.infobox {
+    width: 400px;
+    padding: 10px;
+    color:#000;
+    background-color:#fff;
+    /*border: 15px #fff;*/
+    font-family:'Lekton',sans-serif;
+    z-index:100;
+    /*opacity:0.9;*/
+    line-height:1.2;
+    position: absolute;
+      left: 50%;
+      top: 38%;
+      -webkit-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,204,0,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,204,0,1);
+box-shadow: 10px 10px 5px 0px rgba(0,204,0,1);
+    
+}
 
 .menu {
   position: relative;
