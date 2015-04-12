@@ -31,7 +31,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,204,0,1);
 }
 .start {
     position: absolute;
-  left: 52%;
+  left: 50%;
   top: 70%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
