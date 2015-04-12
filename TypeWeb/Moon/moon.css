@@ -11,43 +11,36 @@ body {
        -o-background-size: cover;
           background-size: cover;
 }
-.infobox {
-    width: 400px;
-    padding: 10px;
-    color:#000;
-    background-color:#fff;
-    /*border: 15px #fff;*/
+.infobox{
+    width: 200px;
     font-family:'Lekton',sans-serif;
-    z-index:100;
-    /*opacity:0.9;*/
-    line-height:1.2;
-    position: absolute;
-      left: 50%;
-      top: 38%;
-      -webkit-transform: translate(-50%, -50%);
-     transform: translate(-50%, -50%);
-     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,204,0,1);
+    font-size:12px;
+    line-height:1.2em;
+    padding: 10px;
+    background-color:white;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,204,0,1);
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,204,0,1);
 box-shadow: 10px 10px 5px 0px rgba(0,204,0,1);
-    
+margin-left:81%;
+margin-top:2%;
 }
 
 .menu {
-  position: relative;
+    position: relative;
   top: 20%;
   transform: translateY(-50%);
 }
 
 #seal {
-    margin-left:-10px;
-    margin-top:5px;
+    margin-left:-5px;
+    margin-top:-130px;
 }
 .tile1 {
     width:30px;
     height:30px;
     background:#00CC00;
     margin-left:25px;
-    margin-top:50px;
+    margin-top:40px;
 
 }
 
@@ -84,210 +77,5 @@ box-shadow: 10px 10px 5px 0px rgba(0,204,0,1);
     background:#00CC00;
     margin-left:25px;
     margin-top:30px;
-}
-
-.a-wrapper {
-    position:relative;
-    display:inline-block;
-    margin-top:-25px;
-    margin-left:30;
-}
-
-.letterablock {
-    width:20px;
-    height:20px;
-    background-color:#000;
-    position:absolute;
-    
-}
-
-.whiteblock1a {
-    width:10px;
-    height:2px;
-    background-color: #000;
-    position:absolute;
-    top: 5px;
-    left: 5px;
- 
-}
-.whiteblock2a {
-    width:10px;
-    height:6px;
-    background-color:#000;
-    position:absolute;
-    bottom: -20px;
-    left: 5px;
-}
-
-.a-wrapper:hover .whiteblock1a {
-    background-color: #00CC00;
-}
-
-.a-wrapper:hover .whiteblock2a {
-    background-color: #00CC00;
-}
-
-
-
-.d-wrapper {
-    position:relative;
-    display:inline-block;
-    margin-left:30px;
-    margin-top:-25px;
-}
-
-.letterdblock {
-    width:20px;
-    height:20px;
-    background-color:#000;
-    position:absolute;
-}
-
-.whiteblock1d {
-    width:11px;
-    height:10px;
-    background-color:#000;
-    position:absolute;
-    top:5px;
-    left:6px;
-}
-
-.d-wrapper:hover .whiteblock1d {
-    background: #00CC00 
-}
-
-
-
-.m-wrapper {
-    position:relative;
-    display:inline-block;
-    margin-top:-25px;
-    margin-left:30px;
-}
-
-.lettermblock {
-    width:20px;
-    height:20px;
-    background-color:#000;
-    position:absolute;
-}
-
-.whiteblock1m {
-    width:10px;
-    height:5px;
-    background-color:#000;
-    position:absolute;
-    top:0px;
-    left:5px;
-}
-
-.whiteblock2m {
-    width:2px;
-    height:5px;
-    background-color:#000;
-    position:absolute;
-    top:15px;
-    left:5px;
-}
-
-.whiteblock3m {
-    width:2px;
-    height:5px;
-    background-color:#000;
-    position:absolute;
-    top:15px;
-    left:13px;
-}
-
-.m-wrapper:hover .whiteblock1m {
-    background-color: #00CC00;
-}
-
-.m-wrapper:hover .whiteblock2m {
-    background-color: #00CC00;
-}
-
-.m-wrapper:hover .whiteblock3m {
-    background-color: #00CC00;
-}
-
-
-.p-wrapper {
-    position:relative;
-    display:inline-block;
-    margin-top:-25px;
-    margin-left:30px;
-}
-
-.letterpblock {
-    width:20px;
-    height:20px;
-    background-color:#000;
-    position:absolute;
-}
-
-.whiteblock1p {
-    width:10px;
-    height:2px;
-    background-color:#000;
-    position:absolute;
-    top:5px;
-    left:5px;
-}
-
-.whiteblock2p {
-    width:15px;
-    height:5px;
-    background-color:#000;
-    position:absolute;
-    top:15px;
-    left:5px;
-}
-
-.p-wrapper:hover .whiteblock1p {
-    background-color: #00CC00;
-}
-
-.p-wrapper:hover .whiteblock2p {
-    background-color: #00CC00;
-}
-
-
-.nine-wrapper {
-    position:relative;
-    display:inline-block;
-    margin-top:-25px;
-    margin-left:30px;
-}
-
-.number9block {
-    width:20px;
-    height:20px;
-    background-color:#000;
-    position:absolute;
-}
-.whiteblock9-1 {
-    width:10px;
-    height:2px;
-    background-color:#000;
-    position:absolute;
-    top:5px; 
-    left:5px;
-}
-
-.whiteblock9-2 {
-    width:15px;
-    height:5px;
-    background-color:#000;
-    position:absolute;
-    top:15px; 
-    left:0px;
-}
-
-.nine-wrapper:hover .whiteblock9-1 {
-    background-color: #00CC00;
-}
-.nine-wrapper:hover .whiteblock9-2 {
-    background-color: #00CC00;
 }
 
