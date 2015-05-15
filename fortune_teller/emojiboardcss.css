@@ -101,17 +101,6 @@
   z-index:900;
 }*/
 
-.triangle3{
-  top:12%;
-  right:8%;
-  width: 0; 
-  height: 0; 
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 60px solid white;
-  position:fixed;
-  z-index:1000;
-}
 
 .riddle-holder {
   font-size: 20px;
@@ -124,7 +113,9 @@
 
 .emojiboard {
   margin-top: 175px;
-  width: 3000px;
+  width: 2900px;
+  height:750px;
+  margin-left: -50px;
   
 }
 
